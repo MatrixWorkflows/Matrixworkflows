@@ -3,6 +3,9 @@ name: regenerate-3d-assets
 on:
   schedule:
     - cron: "23 3 * * *" # daily, off the :00 mark
+  push:
+    branches: [main]
+    paths: ["tools/**", ".github/workflows/assets.yml"]
   workflow_dispatch:
 
 permissions:
