@@ -1,0 +1,400 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="746" height="685" viewBox="0 0 746 685" font-family="ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="25%" r="110%">
+      <stop offset="0%" stop-color="#0a2016"/>
+      <stop offset="60%" stop-color="#04100b"/>
+      <stop offset="100%" stop-color="#020806"/>
+    </radialGradient>
+    <linearGradient id="groundFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff9c" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00ff9c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .bar { transform-box: fill-box; transform-origin: 50% 100%;
+           animation: rise .9s cubic-bezier(.18,.7,.25,1) both; }
+    @keyframes rise { from { transform: scaleY(0.04); } to { transform: scaleY(1); } }
+    .hot .ft { animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { filter: none; } 50% { filter: drop-shadow(0 0 9px rgba(141,255,210,.95)); } }
+    .tile { animation: tileIn .01s linear both; }
+  </style>
+
+  <rect width="746" height="685" fill="url(#bg)"/>
+  <rect x="12" y="12" width="722" height="661" rx="14" fill="none" stroke="#00ff9c" stroke-opacity="0.22" stroke-width="1.5"/>
+
+  <text x="34" y="46" font-size="21" fill="#eafff4">contribution skyline</text>
+  <text x="34" y="68" font-size="13" fill="#0f8f63">one cube = one real day · regenerated daily by GitHub Action</text>
+  <text x="716" y="649" text-anchor="end" font-size="15" fill="#ffb454">DEMO DATA</text>
+
+  <g>
+    <g class="bar" style="animation-delay:0.000s"><path class="fl" d="M76,204.54545454545456 L86,209.54545454545456 L86,245 L76,240 Z" fill="#05261a"/><path class="fr" d="M96,204.54545454545456 L86,209.54545454545456 L86,245 L96,240 Z" fill="#083926"/><path class="ft" d="M86,199.54545454545456 L96,204.54545454545456 L86,209.54545454545456 L76,204.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M76,240 L86,245 L76,250 L66,245 Z" fill="#0c2e22"/>
+    <path class="tile" d="M96,240 L106,245 L96,250 L86,245 Z" fill="#0c2e22"/>
+    <path class="tile" d="M66,245 L76,250 L66,255 L56,250 Z" fill="#0c2e22"/>
+    <path class="tile" d="M86,245 L96,250 L86,255 L76,250 Z" fill="#0c2e22"/>
+    <path class="tile" d="M106,245 L116,250 L106,255 L96,250 Z" fill="#0c2e22"/>
+    <g class="bar hot" style="animation-delay:0.036s"><path class="fl" d="M46,105.0 L56,110.0 L56,260 L46,255 Z" fill="#3b6b58"/><path class="fr" d="M66,105.0 L56,110.0 L56,260 L66,255 Z" fill="#579e82"/><path class="ft" d="M56,100.0 L66,105.0 L56,110.0 L46,105.0 Z" fill="#8dffd2"/></g>
+    <g class="bar" style="animation-delay:0.052s"><path class="fl" d="M66,219.54545454545456 L76,224.54545454545456 L76,260 L66,255 Z" fill="#05261a"/><path class="fr" d="M86,219.54545454545456 L76,224.54545454545456 L76,260 L86,255 Z" fill="#083926"/><path class="ft" d="M76,214.54545454545456 L86,219.54545454545456 L76,224.54545454545456 L66,219.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M96,250 L106,255 L96,260 L86,255 Z" fill="#0c2e22"/>
+    <path class="tile" d="M116,250 L126,255 L116,260 L106,255 Z" fill="#0c2e22"/>
+    <path class="tile" d="M46,255 L56,260 L46,265 L36,260 Z" fill="#0c2e22"/>
+    <path class="tile" d="M66,255 L76,260 L66,265 L56,260 Z" fill="#0c2e22"/>
+    <path class="tile" d="M86,255 L96,260 L86,265 L76,260 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.096s"><path class="fl" d="M96,224.54545454545456 L106,229.54545454545456 L106,265 L96,260 Z" fill="#05261a"/><path class="fr" d="M116,224.54545454545456 L106,229.54545454545456 L106,265 L116,260 Z" fill="#083926"/><path class="ft" d="M106,219.54545454545456 L116,224.54545454545456 L106,229.54545454545456 L96,224.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.112s"><path class="fl" d="M116,224.54545454545456 L126,229.54545454545456 L126,265 L116,260 Z" fill="#05261a"/><path class="fr" d="M136,224.54545454545456 L126,229.54545454545456 L126,265 L136,260 Z" fill="#083926"/><path class="ft" d="M126,219.54545454545456 L136,224.54545454545456 L126,229.54545454545456 L116,224.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.060s"><path class="fl" d="M26,229.54545454545456 L36,234.54545454545456 L36,270 L26,265 Z" fill="#05261a"/><path class="fr" d="M46,229.54545454545456 L36,234.54545454545456 L36,270 L46,265 Z" fill="#083926"/><path class="ft" d="M36,224.54545454545456 L46,229.54545454545456 L36,234.54545454545456 L26,229.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M56,260 L66,265 L56,270 L46,265 Z" fill="#0c2e22"/>
+    <path class="tile" d="M76,260 L86,265 L76,270 L66,265 Z" fill="#0c2e22"/>
+    <path class="tile" d="M96,260 L106,265 L96,270 L86,265 Z" fill="#0c2e22"/>
+    <path class="tile" d="M116,260 L126,265 L116,270 L106,265 Z" fill="#0c2e22"/>
+    <path class="tile" d="M136,260 L146,265 L136,270 L126,265 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.072s"><path class="fl" d="M16,234.54545454545456 L26,239.54545454545456 L26,275 L16,270 Z" fill="#05261a"/><path class="fr" d="M36,234.54545454545456 L26,239.54545454545456 L26,275 L36,270 Z" fill="#083926"/><path class="ft" d="M26,229.54545454545456 L36,234.54545454545456 L26,239.54545454545456 L16,234.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.088s"><path class="fl" d="M36,247.27272727272728 L46,252.27272727272728 L46,275 L36,270 Z" fill="#05261a"/><path class="fr" d="M56,247.27272727272728 L46,252.27272727272728 L46,275 L56,270 Z" fill="#083926"/><path class="ft" d="M46,242.27272727272728 L56,247.27272727272728 L46,252.27272727272728 L36,247.27272727272728 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M66,265 L76,270 L66,275 L56,270 Z" fill="#0c2e22"/>
+    <path class="tile" d="M86,265 L96,270 L86,275 L76,270 Z" fill="#0c2e22"/>
+    <path class="tile" d="M106,265 L116,270 L106,275 L96,270 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.152s"><path class="fl" d="M116,196.36363636363637 L126,201.36363636363637 L126,275 L116,270 Z" fill="#07432d"/><path class="fr" d="M136,196.36363636363637 L126,201.36363636363637 L126,275 L136,270 Z" fill="#0b6342"/><path class="ft" d="M126,191.36363636363637 L136,196.36363636363637 L126,201.36363636363637 L116,196.36363636363637 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:0.168s"><path class="fl" d="M136,247.27272727272728 L146,252.27272727272728 L146,275 L136,270 Z" fill="#05261a"/><path class="fr" d="M156,247.27272727272728 L146,252.27272727272728 L146,275 L156,270 Z" fill="#083926"/><path class="ft" d="M146,242.27272727272728 L156,247.27272727272728 L146,252.27272727272728 L136,247.27272727272728 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M36,270 L46,275 L36,280 L26,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M56,270 L66,275 L56,280 L46,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M76,270 L86,275 L76,280 L66,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M96,270 L106,275 L96,280 L86,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M116,270 L126,275 L116,280 L106,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M136,270 L146,275 L136,280 L126,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M156,270 L166,275 L156,280 L146,275 Z" fill="#0c2e22"/>
+    <path class="tile" d="M46,275 L56,280 L46,285 L36,280 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.144s"><path class="fl" d="M56,231.8181818181818 L66,236.8181818181818 L66,285 L56,280 Z" fill="#07432d"/><path class="fr" d="M76,231.8181818181818 L66,236.8181818181818 L66,285 L76,280 Z" fill="#0b6342"/><path class="ft" d="M66,226.8181818181818 L76,231.8181818181818 L66,236.8181818181818 L56,231.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M86,275 L96,280 L86,285 L76,280 Z" fill="#0c2e22"/>
+    <path class="tile" d="M106,275 L116,280 L106,285 L96,280 Z" fill="#0c2e22"/>
+    <path class="tile" d="M126,275 L136,280 L126,285 L116,280 Z" fill="#0c2e22"/>
+    <path class="tile" d="M146,275 L156,280 L146,285 L136,280 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.224s"><path class="fl" d="M156,244.54545454545456 L166,249.54545454545456 L166,285 L156,280 Z" fill="#05261a"/><path class="fr" d="M176,244.54545454545456 L166,249.54545454545456 L166,285 L176,280 Z" fill="#083926"/><path class="ft" d="M166,239.54545454545456 L176,244.54545454545456 L166,249.54545454545456 L156,244.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.156s"><path class="fl" d="M46,236.8181818181818 L56,241.8181818181818 L56,290 L46,285 Z" fill="#07432d"/><path class="fr" d="M66,236.8181818181818 L56,241.8181818181818 L56,290 L66,285 Z" fill="#0b6342"/><path class="ft" d="M56,231.8181818181818 L66,236.8181818181818 L56,241.8181818181818 L46,236.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M76,280 L86,285 L76,290 L66,285 Z" fill="#0c2e22"/>
+    <path class="tile" d="M96,280 L106,285 L96,290 L86,285 Z" fill="#0c2e22"/>
+    <path class="tile" d="M116,280 L126,285 L116,290 L106,285 Z" fill="#0c2e22"/>
+    <path class="tile" d="M136,280 L146,285 L136,290 L126,285 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.236s"><path class="fl" d="M146,236.8181818181818 L156,241.8181818181818 L156,290 L146,285 Z" fill="#07432d"/><path class="fr" d="M166,236.8181818181818 L156,241.8181818181818 L156,290 L166,285 Z" fill="#0b6342"/><path class="ft" d="M156,231.8181818181818 L166,236.8181818181818 L156,241.8181818181818 L146,236.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M176,280 L186,285 L176,290 L166,285 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.184s"><path class="fl" d="M56,254.54545454545456 L66,259.54545454545456 L66,295 L56,290 Z" fill="#05261a"/><path class="fr" d="M76,254.54545454545456 L66,259.54545454545456 L66,295 L76,290 Z" fill="#083926"/><path class="ft" d="M66,249.54545454545456 L76,254.54545454545456 L66,259.54545454545456 L56,254.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M86,285 L96,290 L86,295 L76,290 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.216s"><path class="fl" d="M96,241.8181818181818 L106,246.8181818181818 L106,295 L96,290 Z" fill="#07432d"/><path class="fr" d="M116,241.8181818181818 L106,246.8181818181818 L106,295 L116,290 Z" fill="#0b6342"/><path class="ft" d="M106,236.8181818181818 L116,241.8181818181818 L106,246.8181818181818 L96,241.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M126,285 L136,290 L126,295 L116,290 Z" fill="#0c2e22"/>
+    <path class="tile" d="M146,285 L156,290 L146,295 L136,290 Z" fill="#0c2e22"/>
+    <path class="tile" d="M166,285 L176,290 L166,295 L156,290 Z" fill="#0c2e22"/>
+    <path class="tile" d="M186,285 L196,290 L186,295 L176,290 Z" fill="#0c2e22"/>
+    <path class="tile" d="M76,290 L86,295 L76,300 L66,295 Z" fill="#0c2e22"/>
+    <path class="tile" d="M96,290 L106,295 L96,300 L86,295 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.244s"><path class="fl" d="M106,272.27272727272725 L116,277.27272727272725 L116,300 L106,295 Z" fill="#05261a"/><path class="fr" d="M126,272.27272727272725 L116,277.27272727272725 L116,300 L126,295 Z" fill="#083926"/><path class="ft" d="M116,267.27272727272725 L126,272.27272727272725 L116,277.27272727272725 L106,272.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.260s"><path class="fl" d="M126,272.27272727272725 L136,277.27272727272725 L136,300 L126,295 Z" fill="#05261a"/><path class="fr" d="M146,272.27272727272725 L136,277.27272727272725 L136,300 L146,295 Z" fill="#083926"/><path class="ft" d="M136,267.27272727272725 L146,272.27272727272725 L136,277.27272727272725 L126,272.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M156,290 L166,295 L156,300 L146,295 Z" fill="#0c2e22"/>
+    <path class="tile" d="M176,290 L186,295 L176,300 L166,295 Z" fill="#0c2e22"/>
+    <path class="tile" d="M196,290 L206,295 L196,300 L186,295 Z" fill="#0c2e22"/>
+    <path class="tile" d="M86,295 L96,300 L86,305 L76,300 Z" fill="#0c2e22"/>
+    <path class="tile" d="M106,295 L116,300 L106,305 L96,300 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.272s"><path class="fl" d="M116,277.27272727272725 L126,282.27272727272725 L126,305 L116,300 Z" fill="#05261a"/><path class="fr" d="M136,277.27272727272725 L126,282.27272727272725 L126,305 L136,300 Z" fill="#083926"/><path class="ft" d="M126,272.27272727272725 L136,277.27272727272725 L126,282.27272727272725 L116,277.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.288s"><path class="fl" d="M136,277.27272727272725 L146,282.27272727272725 L146,305 L136,300 Z" fill="#05261a"/><path class="fr" d="M156,277.27272727272725 L146,282.27272727272725 L146,305 L156,300 Z" fill="#083926"/><path class="ft" d="M146,272.27272727272725 L156,277.27272727272725 L146,282.27272727272725 L136,277.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.304s"><path class="fl" d="M156,264.54545454545456 L166,269.54545454545456 L166,305 L156,300 Z" fill="#05261a"/><path class="fr" d="M176,264.54545454545456 L166,269.54545454545456 L166,305 L176,300 Z" fill="#083926"/><path class="ft" d="M166,259.54545454545456 L176,264.54545454545456 L166,269.54545454545456 L156,264.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.320s"><path class="fl" d="M176,277.27272727272725 L186,282.27272727272725 L186,305 L176,300 Z" fill="#05261a"/><path class="fr" d="M196,277.27272727272725 L186,282.27272727272725 L186,305 L196,300 Z" fill="#083926"/><path class="ft" d="M186,272.27272727272725 L196,277.27272727272725 L186,282.27272727272725 L176,277.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M206,295 L216,300 L206,305 L196,300 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.268s"><path class="fl" d="M86,269.54545454545456 L96,274.54545454545456 L96,310 L86,305 Z" fill="#05261a"/><path class="fr" d="M106,269.54545454545456 L96,274.54545454545456 L96,310 L106,305 Z" fill="#083926"/><path class="ft" d="M96,264.54545454545456 L106,269.54545454545456 L96,274.54545454545456 L86,269.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M116,300 L126,305 L116,310 L106,305 Z" fill="#0c2e22"/>
+    <path class="tile" d="M136,300 L146,305 L136,310 L126,305 Z" fill="#0c2e22"/>
+    <path class="tile" d="M156,300 L166,305 L156,310 L146,305 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.332s"><path class="fl" d="M166,269.54545454545456 L176,274.54545454545456 L176,310 L166,305 Z" fill="#05261a"/><path class="fr" d="M186,269.54545454545456 L176,274.54545454545456 L176,310 L186,305 Z" fill="#083926"/><path class="ft" d="M176,264.54545454545456 L186,269.54545454545456 L176,274.54545454545456 L166,269.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M196,300 L206,305 L196,310 L186,305 Z" fill="#0c2e22"/>
+    <path class="tile" d="M216,300 L226,305 L216,310 L206,305 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.296s"><path class="fl" d="M96,236.36363636363637 L106,241.36363636363637 L106,315 L96,310 Z" fill="#07432d"/><path class="fr" d="M116,236.36363636363637 L106,241.36363636363637 L106,315 L116,310 Z" fill="#0b6342"/><path class="ft" d="M106,231.36363636363637 L116,236.36363636363637 L106,241.36363636363637 L96,236.36363636363637 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M126,305 L136,310 L126,315 L116,310 Z" fill="#0c2e22"/>
+    <path class="tile" d="M146,305 L156,310 L146,315 L136,310 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.344s"><path class="fl" d="M156,274.54545454545456 L166,279.54545454545456 L166,315 L156,310 Z" fill="#05261a"/><path class="fr" d="M176,274.54545454545456 L166,279.54545454545456 L166,315 L176,310 Z" fill="#083926"/><path class="ft" d="M166,269.54545454545456 L176,274.54545454545456 L166,279.54545454545456 L156,274.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.360s"><path class="fl" d="M176,261.8181818181818 L186,266.8181818181818 L186,315 L176,310 Z" fill="#07432d"/><path class="fr" d="M196,261.8181818181818 L186,266.8181818181818 L186,315 L196,310 Z" fill="#0b6342"/><path class="ft" d="M186,256.8181818181818 L196,261.8181818181818 L186,266.8181818181818 L176,261.8181818181818 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:0.376s"><path class="fl" d="M196,274.54545454545456 L206,279.54545454545456 L206,315 L196,310 Z" fill="#05261a"/><path class="fr" d="M216,274.54545454545456 L206,279.54545454545456 L206,315 L216,310 Z" fill="#083926"/><path class="ft" d="M206,269.54545454545456 L216,274.54545454545456 L206,279.54545454545456 L196,274.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M226,305 L236,310 L226,315 L216,310 Z" fill="#0c2e22"/>
+    <path class="tile" d="M116,310 L126,315 L116,320 L106,315 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.340s"><path class="fl" d="M126,279.54545454545456 L136,284.54545454545456 L136,320 L126,315 Z" fill="#05261a"/><path class="fr" d="M146,279.54545454545456 L136,284.54545454545456 L136,320 L146,315 Z" fill="#083926"/><path class="ft" d="M136,274.54545454545456 L146,279.54545454545456 L136,284.54545454545456 L126,279.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.356s"><path class="fl" d="M146,292.27272727272725 L156,297.27272727272725 L156,320 L146,315 Z" fill="#05261a"/><path class="fr" d="M166,292.27272727272725 L156,297.27272727272725 L156,320 L166,315 Z" fill="#083926"/><path class="ft" d="M156,287.27272727272725 L166,292.27272727272725 L156,297.27272727272725 L146,292.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M176,310 L186,315 L176,320 L166,315 Z" fill="#0c2e22"/>
+    <path class="tile" d="M196,310 L206,315 L196,320 L186,315 Z" fill="#0c2e22"/>
+    <path class="tile" d="M216,310 L226,315 L216,320 L206,315 Z" fill="#0c2e22"/>
+    <path class="tile" d="M236,310 L246,315 L236,320 L226,315 Z" fill="#0c2e22"/>
+    <path class="tile" d="M126,315 L136,320 L126,325 L116,320 Z" fill="#0c2e22"/>
+    <path class="tile" d="M146,315 L156,320 L146,325 L136,320 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.384s"><path class="fl" d="M156,297.27272727272725 L166,302.27272727272725 L166,325 L156,320 Z" fill="#05261a"/><path class="fr" d="M176,297.27272727272725 L166,302.27272727272725 L166,325 L176,320 Z" fill="#083926"/><path class="ft" d="M166,292.27272727272725 L176,297.27272727272725 L166,302.27272727272725 L156,297.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.400s"><path class="fl" d="M176,271.8181818181818 L186,276.8181818181818 L186,325 L176,320 Z" fill="#07432d"/><path class="fr" d="M196,271.8181818181818 L186,276.8181818181818 L186,325 L196,320 Z" fill="#0b6342"/><path class="ft" d="M186,266.8181818181818 L196,271.8181818181818 L186,276.8181818181818 L176,271.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M206,315 L216,320 L206,325 L196,320 Z" fill="#0c2e22"/>
+    <path class="tile" d="M226,315 L236,320 L226,325 L216,320 Z" fill="#0c2e22"/>
+    <path class="tile" d="M246,315 L256,320 L246,325 L236,320 Z" fill="#0c2e22"/>
+    <path class="tile" d="M136,320 L146,325 L136,330 L126,325 Z" fill="#0c2e22"/>
+    <path class="tile" d="M156,320 L166,325 L156,330 L146,325 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.412s"><path class="fl" d="M166,302.27272727272725 L176,307.27272727272725 L176,330 L166,325 Z" fill="#05261a"/><path class="fr" d="M186,302.27272727272725 L176,307.27272727272725 L176,330 L186,325 Z" fill="#083926"/><path class="ft" d="M176,297.27272727272725 L186,302.27272727272725 L176,307.27272727272725 L166,302.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.428s"><path class="fl" d="M186,302.27272727272725 L196,307.27272727272725 L196,330 L186,325 Z" fill="#05261a"/><path class="fr" d="M206,302.27272727272725 L196,307.27272727272725 L196,330 L206,325 Z" fill="#083926"/><path class="ft" d="M196,297.27272727272725 L206,302.27272727272725 L196,307.27272727272725 L186,302.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.444s"><path class="fl" d="M206,302.27272727272725 L216,307.27272727272725 L216,330 L206,325 Z" fill="#05261a"/><path class="fr" d="M226,302.27272727272725 L216,307.27272727272725 L216,330 L226,325 Z" fill="#083926"/><path class="ft" d="M216,297.27272727272725 L226,302.27272727272725 L216,307.27272727272725 L206,302.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M236,320 L246,325 L236,330 L226,325 Z" fill="#0c2e22"/>
+    <path class="tile" d="M256,320 L266,325 L256,330 L246,325 Z" fill="#0c2e22"/>
+    <path class="tile" d="M146,325 L156,330 L146,335 L136,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M166,325 L176,330 L166,335 L156,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M186,325 L196,330 L186,335 L176,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M206,325 L216,330 L206,335 L196,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M226,325 L236,330 L226,335 L216,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M246,325 L256,330 L246,335 L236,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M266,325 L276,330 L266,335 L256,330 Z" fill="#0c2e22"/>
+    <path class="tile" d="M156,330 L166,335 L156,340 L146,335 Z" fill="#0c2e22"/>
+    <path class="tile" d="M176,330 L186,335 L176,340 L166,335 Z" fill="#0c2e22"/>
+    <path class="tile" d="M196,330 L206,335 L196,340 L186,335 Z" fill="#0c2e22"/>
+    <path class="tile" d="M216,330 L226,335 L216,340 L206,335 Z" fill="#0c2e22"/>
+    <path class="tile" d="M236,330 L246,335 L236,340 L226,335 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.516s"><path class="fl" d="M246,299.54545454545456 L256,304.54545454545456 L256,340 L246,335 Z" fill="#05261a"/><path class="fr" d="M266,299.54545454545456 L256,304.54545454545456 L256,340 L266,335 Z" fill="#083926"/><path class="ft" d="M256,294.54545454545456 L266,299.54545454545456 L256,304.54545454545456 L246,299.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M276,330 L286,335 L276,340 L266,335 Z" fill="#0c2e22"/>
+    <path class="tile" d="M166,335 L176,340 L166,345 L156,340 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.480s"><path class="fl" d="M176,304.54545454545456 L186,309.54545454545456 L186,345 L176,340 Z" fill="#05261a"/><path class="fr" d="M196,304.54545454545456 L186,309.54545454545456 L186,345 L196,340 Z" fill="#083926"/><path class="ft" d="M186,299.54545454545456 L196,304.54545454545456 L186,309.54545454545456 L176,304.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M206,335 L216,340 L206,345 L196,340 Z" fill="#0c2e22"/>
+    <path class="tile" d="M226,335 L236,340 L226,345 L216,340 Z" fill="#0c2e22"/>
+    <path class="tile" d="M246,335 L256,340 L246,345 L236,340 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.544s"><path class="fl" d="M256,291.8181818181818 L266,296.8181818181818 L266,345 L256,340 Z" fill="#07432d"/><path class="fr" d="M276,291.8181818181818 L266,296.8181818181818 L266,345 L276,340 Z" fill="#0b6342"/><path class="ft" d="M266,286.8181818181818 L276,291.8181818181818 L266,296.8181818181818 L256,291.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M286,335 L296,340 L286,345 L276,340 Z" fill="#0c2e22"/>
+    <path class="tile" d="M176,340 L186,345 L176,350 L166,345 Z" fill="#0c2e22"/>
+    <path class="tile" d="M196,340 L206,345 L196,350 L186,345 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.524s"><path class="fl" d="M206,296.8181818181818 L216,301.8181818181818 L216,350 L206,345 Z" fill="#07432d"/><path class="fr" d="M226,296.8181818181818 L216,301.8181818181818 L216,350 L226,345 Z" fill="#0b6342"/><path class="ft" d="M216,291.8181818181818 L226,296.8181818181818 L216,301.8181818181818 L206,296.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M236,340 L246,345 L236,350 L226,345 Z" fill="#0c2e22"/>
+    <path class="tile" d="M256,340 L266,345 L256,350 L246,345 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.572s"><path class="fl" d="M266,309.54545454545456 L276,314.54545454545456 L276,350 L266,345 Z" fill="#05261a"/><path class="fr" d="M286,309.54545454545456 L276,314.54545454545456 L276,350 L286,345 Z" fill="#083926"/><path class="ft" d="M276,304.54545454545456 L286,309.54545454545456 L276,314.54545454545456 L266,309.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.588s"><path class="fl" d="M286,296.8181818181818 L296,301.8181818181818 L296,350 L286,345 Z" fill="#07432d"/><path class="fr" d="M306,296.8181818181818 L296,301.8181818181818 L296,350 L306,345 Z" fill="#0b6342"/><path class="ft" d="M296,291.8181818181818 L306,296.8181818181818 L296,301.8181818181818 L286,296.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M186,345 L196,350 L186,355 L176,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M206,345 L216,350 L206,355 L196,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M226,345 L236,350 L226,355 L216,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M246,345 L256,350 L246,355 L236,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M266,345 L276,350 L266,355 L256,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M286,345 L296,350 L286,355 L276,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M306,345 L316,350 L306,355 L296,350 Z" fill="#0c2e22"/>
+    <path class="tile" d="M196,350 L206,355 L196,360 L186,355 Z" fill="#0c2e22"/>
+    <path class="tile" d="M216,350 L226,355 L216,360 L206,355 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.580s"><path class="fl" d="M226,281.3636363636364 L236,286.3636363636364 L236,360 L226,355 Z" fill="#07432d"/><path class="fr" d="M246,281.3636363636364 L236,286.3636363636364 L236,360 L246,355 Z" fill="#0b6342"/><path class="ft" d="M236,276.3636363636364 L246,281.3636363636364 L236,286.3636363636364 L226,281.3636363636364 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:0.596s"><path class="fl" d="M246,306.8181818181818 L256,311.8181818181818 L256,360 L246,355 Z" fill="#07432d"/><path class="fr" d="M266,306.8181818181818 L256,311.8181818181818 L256,360 L266,355 Z" fill="#0b6342"/><path class="ft" d="M256,301.8181818181818 L266,306.8181818181818 L256,311.8181818181818 L246,306.8181818181818 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:0.612s"><path class="fl" d="M266,332.27272727272725 L276,337.27272727272725 L276,360 L266,355 Z" fill="#05261a"/><path class="fr" d="M286,332.27272727272725 L276,337.27272727272725 L276,360 L286,355 Z" fill="#083926"/><path class="ft" d="M276,327.27272727272725 L286,332.27272727272725 L276,337.27272727272725 L266,332.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M296,350 L306,355 L296,360 L286,355 Z" fill="#0c2e22"/>
+    <path class="tile" d="M316,350 L326,355 L316,360 L306,355 Z" fill="#0c2e22"/>
+    <path class="tile" d="M206,355 L216,360 L206,365 L196,360 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.592s"><path class="fl" d="M216,337.27272727272725 L226,342.27272727272725 L226,365 L216,360 Z" fill="#05261a"/><path class="fr" d="M236,337.27272727272725 L226,342.27272727272725 L226,365 L236,360 Z" fill="#083926"/><path class="ft" d="M226,332.27272727272725 L236,337.27272727272725 L226,342.27272727272725 L216,337.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M246,355 L256,360 L246,365 L236,360 Z" fill="#0c2e22"/>
+    <path class="tile" d="M266,355 L276,360 L266,365 L256,360 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.640s"><path class="fl" d="M276,286.3636363636364 L286,291.3636363636364 L286,365 L276,360 Z" fill="#07432d"/><path class="fr" d="M296,286.3636363636364 L286,291.3636363636364 L286,365 L296,360 Z" fill="#0b6342"/><path class="ft" d="M286,281.3636363636364 L296,286.3636363636364 L286,291.3636363636364 L276,286.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M306,355 L316,360 L306,365 L296,360 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.672s"><path class="fl" d="M316,286.3636363636364 L326,291.3636363636364 L326,365 L316,360 Z" fill="#07432d"/><path class="fr" d="M336,286.3636363636364 L326,291.3636363636364 L326,365 L336,360 Z" fill="#0b6342"/><path class="ft" d="M326,281.3636363636364 L336,286.3636363636364 L326,291.3636363636364 L316,286.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M216,360 L226,365 L216,370 L206,365 Z" fill="#0c2e22"/>
+    <path class="tile" d="M236,360 L246,365 L236,370 L226,365 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.636s"><path class="fl" d="M246,291.3636363636364 L256,296.3636363636364 L256,370 L246,365 Z" fill="#07432d"/><path class="fr" d="M266,291.3636363636364 L256,296.3636363636364 L256,370 L266,365 Z" fill="#0b6342"/><path class="ft" d="M256,286.3636363636364 L266,291.3636363636364 L256,296.3636363636364 L246,291.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M276,360 L286,365 L276,370 L266,365 Z" fill="#0c2e22"/>
+    <path class="tile" d="M296,360 L306,365 L296,370 L286,365 Z" fill="#0c2e22"/>
+    <path class="tile" d="M316,360 L326,365 L316,370 L306,365 Z" fill="#0c2e22"/>
+    <path class="tile" d="M336,360 L346,365 L336,370 L326,365 Z" fill="#0c2e22"/>
+    <path class="tile" d="M226,365 L236,370 L226,375 L216,370 Z" fill="#0c2e22"/>
+    <path class="tile" d="M246,365 L256,370 L246,375 L236,370 Z" fill="#0c2e22"/>
+    <path class="tile" d="M266,365 L276,370 L266,375 L256,370 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.680s"><path class="fl" d="M276,347.27272727272725 L286,352.27272727272725 L286,375 L276,370 Z" fill="#05261a"/><path class="fr" d="M296,347.27272727272725 L286,352.27272727272725 L286,375 L296,370 Z" fill="#083926"/><path class="ft" d="M286,342.27272727272725 L296,347.27272727272725 L286,352.27272727272725 L276,347.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M306,365 L316,370 L306,375 L296,370 Z" fill="#0c2e22"/>
+    <path class="tile" d="M326,365 L336,370 L326,375 L316,370 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.728s"><path class="fl" d="M336,334.54545454545456 L346,339.54545454545456 L346,375 L336,370 Z" fill="#05261a"/><path class="fr" d="M356,334.54545454545456 L346,339.54545454545456 L346,375 L356,370 Z" fill="#083926"/><path class="ft" d="M346,329.54545454545456 L356,334.54545454545456 L346,339.54545454545456 L336,334.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M236,370 L246,375 L236,380 L226,375 Z" fill="#0c2e22"/>
+    <path class="tile" d="M256,370 L266,375 L256,380 L246,375 Z" fill="#0c2e22"/>
+    <path class="tile" d="M276,370 L286,375 L276,380 L266,375 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.708s"><path class="fl" d="M286,339.54545454545456 L296,344.54545454545456 L296,380 L286,375 Z" fill="#05261a"/><path class="fr" d="M306,339.54545454545456 L296,344.54545454545456 L296,380 L306,375 Z" fill="#083926"/><path class="ft" d="M296,334.54545454545456 L306,339.54545454545456 L296,344.54545454545456 L286,339.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M316,370 L326,375 L316,380 L306,375 Z" fill="#0c2e22"/>
+    <path class="tile" d="M336,370 L346,375 L336,380 L326,375 Z" fill="#0c2e22"/>
+    <path class="tile" d="M356,370 L366,375 L356,380 L346,375 Z" fill="#0c2e22"/>
+    <path class="tile" d="M246,375 L256,380 L246,385 L236,380 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.704s"><path class="fl" d="M256,331.8181818181818 L266,336.8181818181818 L266,385 L256,380 Z" fill="#07432d"/><path class="fr" d="M276,331.8181818181818 L266,336.8181818181818 L266,385 L276,380 Z" fill="#0b6342"/><path class="ft" d="M266,326.8181818181818 L276,331.8181818181818 L266,336.8181818181818 L256,331.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M286,375 L296,380 L286,385 L276,380 Z" fill="#0c2e22"/>
+    <path class="tile" d="M306,375 L316,380 L306,385 L296,380 Z" fill="#0c2e22"/>
+    <path class="tile" d="M326,375 L336,380 L326,385 L316,380 Z" fill="#0c2e22"/>
+    <path class="tile" d="M346,375 L356,380 L346,385 L336,380 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.784s"><path class="fl" d="M356,306.3636363636364 L366,311.3636363636364 L366,385 L356,380 Z" fill="#07432d"/><path class="fr" d="M376,306.3636363636364 L366,311.3636363636364 L366,385 L376,380 Z" fill="#0b6342"/><path class="ft" d="M366,301.3636363636364 L376,306.3636363636364 L366,311.3636363636364 L356,306.3636363636364 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:0.716s"><path class="fl" d="M246,336.8181818181818 L256,341.8181818181818 L256,390 L246,385 Z" fill="#07432d"/><path class="fr" d="M266,336.8181818181818 L256,341.8181818181818 L256,390 L266,385 Z" fill="#0b6342"/><path class="ft" d="M256,331.8181818181818 L266,336.8181818181818 L256,341.8181818181818 L246,336.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M276,380 L286,385 L276,390 L266,385 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.748s"><path class="fl" d="M286,362.27272727272725 L296,367.27272727272725 L296,390 L286,385 Z" fill="#05261a"/><path class="fr" d="M306,362.27272727272725 L296,367.27272727272725 L296,390 L306,385 Z" fill="#083926"/><path class="ft" d="M296,357.27272727272725 L306,362.27272727272725 L296,367.27272727272725 L286,362.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M316,380 L326,385 L316,390 L306,385 Z" fill="#0c2e22"/>
+    <path class="tile" d="M336,380 L346,385 L336,390 L326,385 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.796s"><path class="fl" d="M346,311.3636363636364 L356,316.3636363636364 L356,390 L346,385 Z" fill="#07432d"/><path class="fr" d="M366,311.3636363636364 L356,316.3636363636364 L356,390 L366,385 Z" fill="#0b6342"/><path class="ft" d="M356,306.3636363636364 L366,311.3636363636364 L356,316.3636363636364 L346,311.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M376,380 L386,385 L376,390 L366,385 Z" fill="#0c2e22"/>
+    <g class="bar hot" style="animation-delay:0.744s"><path class="fl" d="M256,240.0 L266,245.0 L266,395 L256,390 Z" fill="#3b6b58"/><path class="fr" d="M276,240.0 L266,245.0 L266,395 L276,390 Z" fill="#579e82"/><path class="ft" d="M266,235.0 L276,240.0 L266,245.0 L256,240.0 Z" fill="#8dffd2"/></g>
+    <path class="tile" d="M286,385 L296,390 L286,395 L276,390 Z" fill="#0c2e22"/>
+    <path class="tile" d="M306,385 L316,390 L306,395 L296,390 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.792s"><path class="fl" d="M316,316.3636363636364 L326,321.3636363636364 L326,395 L316,390 Z" fill="#07432d"/><path class="fr" d="M336,316.3636363636364 L326,321.3636363636364 L326,395 L336,390 Z" fill="#0b6342"/><path class="ft" d="M326,311.3636363636364 L336,316.3636363636364 L326,321.3636363636364 L316,316.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M346,385 L356,390 L346,395 L336,390 Z" fill="#0c2e22"/>
+    <path class="tile" d="M366,385 L376,390 L366,395 L356,390 Z" fill="#0c2e22"/>
+    <path class="tile" d="M386,385 L396,390 L386,395 L376,390 Z" fill="#0c2e22"/>
+    <path class="tile" d="M276,390 L286,395 L276,400 L266,395 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.788s"><path class="fl" d="M286,321.3636363636364 L296,326.3636363636364 L296,400 L286,395 Z" fill="#07432d"/><path class="fr" d="M306,321.3636363636364 L296,326.3636363636364 L296,400 L306,395 Z" fill="#0b6342"/><path class="ft" d="M296,316.3636363636364 L306,321.3636363636364 L296,326.3636363636364 L286,321.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M316,390 L326,395 L316,400 L306,395 Z" fill="#0c2e22"/>
+    <path class="tile" d="M336,390 L346,395 L336,400 L326,395 Z" fill="#0c2e22"/>
+    <path class="tile" d="M356,390 L366,395 L356,400 L346,395 Z" fill="#0c2e22"/>
+    <path class="tile" d="M376,390 L386,395 L376,400 L366,395 Z" fill="#0c2e22"/>
+    <path class="tile" d="M396,390 L406,395 L396,400 L386,395 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.800s"><path class="fl" d="M276,326.3636363636364 L286,331.3636363636364 L286,405 L276,400 Z" fill="#07432d"/><path class="fr" d="M296,326.3636363636364 L286,331.3636363636364 L286,405 L296,400 Z" fill="#0b6342"/><path class="ft" d="M286,321.3636363636364 L296,326.3636363636364 L286,331.3636363636364 L276,326.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M306,395 L316,400 L306,405 L296,400 Z" fill="#0c2e22"/>
+    <path class="tile" d="M326,395 L336,400 L326,405 L316,400 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.848s"><path class="fl" d="M336,377.27272727272725 L346,382.27272727272725 L346,405 L336,400 Z" fill="#05261a"/><path class="fr" d="M356,377.27272727272725 L346,382.27272727272725 L346,405 L356,400 Z" fill="#083926"/><path class="ft" d="M346,372.27272727272725 L356,377.27272727272725 L346,382.27272727272725 L336,377.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M366,395 L376,400 L366,405 L356,400 Z" fill="#0c2e22"/>
+    <path class="tile" d="M386,395 L396,400 L386,405 L376,400 Z" fill="#0c2e22"/>
+    <path class="tile" d="M406,395 L416,400 L406,405 L396,400 Z" fill="#0c2e22"/>
+    <path class="tile" d="M296,400 L306,405 L296,410 L286,405 Z" fill="#0c2e22"/>
+    <path class="tile" d="M316,400 L326,405 L316,410 L306,405 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.860s"><path class="fl" d="M326,356.8181818181818 L336,361.8181818181818 L336,410 L326,405 Z" fill="#07432d"/><path class="fr" d="M346,356.8181818181818 L336,361.8181818181818 L336,410 L346,405 Z" fill="#0b6342"/><path class="ft" d="M336,351.8181818181818 L346,356.8181818181818 L336,361.8181818181818 L326,356.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M356,400 L366,405 L356,410 L346,405 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.892s"><path class="fl" d="M366,356.8181818181818 L376,361.8181818181818 L376,410 L366,405 Z" fill="#07432d"/><path class="fr" d="M386,356.8181818181818 L376,361.8181818181818 L376,410 L386,405 Z" fill="#0b6342"/><path class="ft" d="M376,351.8181818181818 L386,356.8181818181818 L376,361.8181818181818 L366,356.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M396,400 L406,405 L396,410 L386,405 Z" fill="#0c2e22"/>
+    <path class="tile" d="M416,400 L426,405 L416,410 L406,405 Z" fill="#0c2e22"/>
+    <path class="tile" d="M306,405 L316,410 L306,415 L296,410 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.872s"><path class="fl" d="M316,387.27272727272725 L326,392.27272727272725 L326,415 L316,410 Z" fill="#05261a"/><path class="fr" d="M336,387.27272727272725 L326,392.27272727272725 L326,415 L336,410 Z" fill="#083926"/><path class="ft" d="M326,382.27272727272725 L336,387.27272727272725 L326,392.27272727272725 L316,387.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M346,405 L356,410 L346,415 L336,410 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.904s"><path class="fl" d="M356,387.27272727272725 L366,392.27272727272725 L366,415 L356,410 Z" fill="#05261a"/><path class="fr" d="M376,387.27272727272725 L366,392.27272727272725 L366,415 L376,410 Z" fill="#083926"/><path class="ft" d="M366,382.27272727272725 L376,387.27272727272725 L366,392.27272727272725 L356,387.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M386,405 L396,410 L386,415 L376,410 Z" fill="#0c2e22"/>
+    <path class="tile" d="M406,405 L416,410 L406,415 L396,410 Z" fill="#0c2e22"/>
+    <path class="tile" d="M426,405 L436,410 L426,415 L416,410 Z" fill="#0c2e22"/>
+    <path class="tile" d="M316,410 L326,415 L316,420 L306,415 Z" fill="#0c2e22"/>
+    <path class="tile" d="M336,410 L346,415 L336,420 L326,415 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.916s"><path class="fl" d="M346,366.8181818181818 L356,371.8181818181818 L356,420 L346,415 Z" fill="#07432d"/><path class="fr" d="M366,366.8181818181818 L356,371.8181818181818 L356,420 L366,415 Z" fill="#0b6342"/><path class="ft" d="M356,361.8181818181818 L366,366.8181818181818 L356,371.8181818181818 L346,366.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M376,410 L386,415 L376,420 L366,415 Z" fill="#0c2e22"/>
+    <path class="tile" d="M396,410 L406,415 L396,420 L386,415 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.964s"><path class="fl" d="M406,366.8181818181818 L416,371.8181818181818 L416,420 L406,415 Z" fill="#07432d"/><path class="fr" d="M426,366.8181818181818 L416,371.8181818181818 L416,420 L426,415 Z" fill="#0b6342"/><path class="ft" d="M416,361.8181818181818 L426,366.8181818181818 L416,371.8181818181818 L406,366.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M436,410 L446,415 L436,420 L426,415 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.912s"><path class="fl" d="M316,346.3636363636364 L326,351.3636363636364 L326,425 L316,420 Z" fill="#07432d"/><path class="fr" d="M336,346.3636363636364 L326,351.3636363636364 L326,425 L336,420 Z" fill="#0b6342"/><path class="ft" d="M326,341.3636363636364 L336,346.3636363636364 L326,351.3636363636364 L316,346.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M346,415 L356,420 L346,425 L336,420 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.944s"><path class="fl" d="M356,371.8181818181818 L366,376.8181818181818 L366,425 L356,420 Z" fill="#07432d"/><path class="fr" d="M376,371.8181818181818 L366,376.8181818181818 L366,425 L376,420 Z" fill="#0b6342"/><path class="ft" d="M366,366.8181818181818 L376,371.8181818181818 L366,376.8181818181818 L356,371.8181818181818 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:0.960s"><path class="fl" d="M376,397.27272727272725 L386,402.27272727272725 L386,425 L376,420 Z" fill="#05261a"/><path class="fr" d="M396,397.27272727272725 L386,402.27272727272725 L386,425 L396,420 Z" fill="#083926"/><path class="ft" d="M386,392.27272727272725 L396,397.27272727272725 L386,402.27272727272725 L376,397.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M406,415 L416,420 L406,425 L396,420 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.992s"><path class="fl" d="M416,346.3636363636364 L426,351.3636363636364 L426,425 L416,420 Z" fill="#07432d"/><path class="fr" d="M436,346.3636363636364 L426,351.3636363636364 L426,425 L436,420 Z" fill="#0b6342"/><path class="ft" d="M426,341.3636363636364 L436,346.3636363636364 L426,351.3636363636364 L416,346.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M446,415 L456,420 L446,425 L436,420 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.940s"><path class="fl" d="M326,389.54545454545456 L336,394.54545454545456 L336,430 L326,425 Z" fill="#05261a"/><path class="fr" d="M346,389.54545454545456 L336,394.54545454545456 L336,430 L346,425 Z" fill="#083926"/><path class="ft" d="M336,384.54545454545456 L346,389.54545454545456 L336,394.54545454545456 L326,389.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M356,420 L366,425 L356,430 L346,425 Z" fill="#0c2e22"/>
+    <path class="tile" d="M376,420 L386,425 L376,430 L366,425 Z" fill="#0c2e22"/>
+    <path class="tile" d="M396,420 L406,425 L396,430 L386,425 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.004s"><path class="fl" d="M406,351.3636363636364 L416,356.3636363636364 L416,430 L406,425 Z" fill="#07432d"/><path class="fr" d="M426,351.3636363636364 L416,356.3636363636364 L416,430 L426,425 Z" fill="#0b6342"/><path class="ft" d="M416,346.3636363636364 L426,351.3636363636364 L416,356.3636363636364 L406,351.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M436,420 L446,425 L436,430 L426,425 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.036s"><path class="fl" d="M446,389.54545454545456 L456,394.54545454545456 L456,430 L446,425 Z" fill="#05261a"/><path class="fr" d="M466,389.54545454545456 L456,394.54545454545456 L456,430 L466,425 Z" fill="#083926"/><path class="ft" d="M456,384.54545454545456 L466,389.54545454545456 L456,394.54545454545456 L446,389.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:0.968s"><path class="fl" d="M336,356.3636363636364 L346,361.3636363636364 L346,435 L336,430 Z" fill="#07432d"/><path class="fr" d="M356,356.3636363636364 L346,361.3636363636364 L346,435 L356,430 Z" fill="#0b6342"/><path class="ft" d="M346,351.3636363636364 L356,356.3636363636364 L346,361.3636363636364 L336,356.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M366,425 L376,430 L366,435 L356,430 Z" fill="#0c2e22"/>
+    <path class="tile" d="M386,425 L396,430 L386,435 L376,430 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.016s"><path class="fl" d="M396,394.54545454545456 L406,399.54545454545456 L406,435 L396,430 Z" fill="#05261a"/><path class="fr" d="M416,394.54545454545456 L406,399.54545454545456 L406,435 L416,430 Z" fill="#083926"/><path class="ft" d="M406,389.54545454545456 L416,394.54545454545456 L406,399.54545454545456 L396,394.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M426,425 L436,430 L426,435 L416,430 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.048s"><path class="fl" d="M436,381.8181818181818 L446,386.8181818181818 L446,435 L436,430 Z" fill="#07432d"/><path class="fr" d="M456,381.8181818181818 L446,386.8181818181818 L446,435 L456,430 Z" fill="#0b6342"/><path class="ft" d="M446,376.8181818181818 L456,381.8181818181818 L446,386.8181818181818 L436,381.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M466,425 L476,430 L466,435 L456,430 Z" fill="#0c2e22"/>
+    <path class="tile" d="M356,430 L366,435 L356,440 L346,435 Z" fill="#0c2e22"/>
+    <path class="tile" d="M376,430 L386,435 L376,440 L366,435 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.028s"><path class="fl" d="M386,361.3636363636364 L396,366.3636363636364 L396,440 L386,435 Z" fill="#07432d"/><path class="fr" d="M406,361.3636363636364 L396,366.3636363636364 L396,440 L406,435 Z" fill="#0b6342"/><path class="ft" d="M396,356.3636363636364 L406,361.3636363636364 L396,366.3636363636364 L386,361.3636363636364 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.044s"><path class="fl" d="M406,412.27272727272725 L416,417.27272727272725 L416,440 L406,435 Z" fill="#05261a"/><path class="fr" d="M426,412.27272727272725 L416,417.27272727272725 L416,440 L426,435 Z" fill="#083926"/><path class="ft" d="M416,407.27272727272725 L426,412.27272727272725 L416,417.27272727272725 L406,412.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M436,430 L446,435 L436,440 L426,435 Z" fill="#0c2e22"/>
+    <path class="tile" d="M456,430 L466,435 L456,440 L446,435 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.092s"><path class="fl" d="M466,399.54545454545456 L476,404.54545454545456 L476,440 L466,435 Z" fill="#05261a"/><path class="fr" d="M486,399.54545454545456 L476,404.54545454545456 L476,440 L486,435 Z" fill="#083926"/><path class="ft" d="M476,394.54545454545456 L486,399.54545454545456 L476,404.54545454545456 L466,399.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M366,435 L376,440 L366,445 L356,440 Z" fill="#0c2e22"/>
+    <path class="tile" d="M386,435 L396,440 L386,445 L376,440 Z" fill="#0c2e22"/>
+    <path class="tile" d="M406,435 L416,440 L406,445 L396,440 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.072s"><path class="fl" d="M416,404.54545454545456 L426,409.54545454545456 L426,445 L416,440 Z" fill="#05261a"/><path class="fr" d="M436,404.54545454545456 L426,409.54545454545456 L426,445 L436,440 Z" fill="#083926"/><path class="ft" d="M426,399.54545454545456 L436,404.54545454545456 L426,409.54545454545456 L416,404.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M446,435 L456,440 L446,445 L436,440 Z" fill="#0c2e22"/>
+    <path class="tile" d="M466,435 L476,440 L466,445 L456,440 Z" fill="#0c2e22"/>
+    <path class="tile" d="M486,435 L496,440 L486,445 L476,440 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.052s"><path class="fl" d="M366,409.54545454545456 L376,414.54545454545456 L376,450 L366,445 Z" fill="#05261a"/><path class="fr" d="M386,409.54545454545456 L376,414.54545454545456 L376,450 L386,445 Z" fill="#083926"/><path class="ft" d="M376,404.54545454545456 L386,409.54545454545456 L376,414.54545454545456 L366,409.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M396,440 L406,445 L396,450 L386,445 Z" fill="#0c2e22"/>
+    <path class="tile" d="M416,440 L426,445 L416,450 L406,445 Z" fill="#0c2e22"/>
+    <path class="tile" d="M436,440 L446,445 L436,450 L426,445 Z" fill="#0c2e22"/>
+    <path class="tile" d="M456,440 L466,445 L456,450 L446,445 Z" fill="#0c2e22"/>
+    <path class="tile" d="M476,440 L486,445 L476,450 L466,445 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.148s"><path class="fl" d="M486,371.3636363636364 L496,376.3636363636364 L496,450 L486,445 Z" fill="#07432d"/><path class="fr" d="M506,371.3636363636364 L496,376.3636363636364 L496,450 L506,445 Z" fill="#0b6342"/><path class="ft" d="M496,366.3636363636364 L506,371.3636363636364 L496,376.3636363636364 L486,371.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M386,445 L396,450 L386,455 L376,450 Z" fill="#0c2e22"/>
+    <path class="tile" d="M406,445 L416,450 L406,455 L396,450 Z" fill="#0c2e22"/>
+    <path class="tile" d="M426,445 L436,450 L426,455 L416,450 Z" fill="#0c2e22"/>
+    <path class="tile" d="M446,445 L456,450 L446,455 L436,450 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.144s"><path class="fl" d="M456,414.54545454545456 L466,419.54545454545456 L466,455 L456,450 Z" fill="#05261a"/><path class="fr" d="M476,414.54545454545456 L466,419.54545454545456 L466,455 L476,450 Z" fill="#083926"/><path class="ft" d="M466,409.54545454545456 L476,414.54545454545456 L466,419.54545454545456 L456,414.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M486,445 L496,450 L486,455 L476,450 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.176s"><path class="fl" d="M496,376.3636363636364 L506,381.3636363636364 L506,455 L496,450 Z" fill="#07432d"/><path class="fr" d="M516,376.3636363636364 L506,381.3636363636364 L506,455 L516,450 Z" fill="#0b6342"/><path class="ft" d="M506,371.3636363636364 L516,376.3636363636364 L506,381.3636363636364 L496,376.3636363636364 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.108s"><path class="fl" d="M386,432.27272727272725 L396,437.27272727272725 L396,460 L386,455 Z" fill="#05261a"/><path class="fr" d="M406,432.27272727272725 L396,437.27272727272725 L396,460 L406,455 Z" fill="#083926"/><path class="ft" d="M396,427.27272727272725 L406,432.27272727272725 L396,437.27272727272725 L386,432.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M416,450 L426,455 L416,460 L406,455 Z" fill="#0c2e22"/>
+    <path class="tile" d="M436,450 L446,455 L436,460 L426,455 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.156s"><path class="fl" d="M446,381.3636363636364 L456,386.3636363636364 L456,460 L446,455 Z" fill="#07432d"/><path class="fr" d="M466,381.3636363636364 L456,386.3636363636364 L456,460 L466,455 Z" fill="#0b6342"/><path class="ft" d="M456,376.3636363636364 L466,381.3636363636364 L456,386.3636363636364 L446,381.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M476,450 L486,455 L476,460 L466,455 Z" fill="#0c2e22"/>
+    <path class="tile" d="M496,450 L506,455 L496,460 L486,455 Z" fill="#0c2e22"/>
+    <path class="tile" d="M516,450 L526,455 L516,460 L506,455 Z" fill="#0c2e22"/>
+    <path class="tile" d="M406,455 L416,460 L406,465 L396,460 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.152s"><path class="fl" d="M416,386.3636363636364 L426,391.3636363636364 L426,465 L416,460 Z" fill="#07432d"/><path class="fr" d="M436,386.3636363636364 L426,391.3636363636364 L426,465 L436,460 Z" fill="#0b6342"/><path class="ft" d="M426,381.3636363636364 L436,386.3636363636364 L426,391.3636363636364 L416,386.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M446,455 L456,460 L446,465 L436,460 Z" fill="#0c2e22"/>
+    <path class="tile" d="M466,455 L476,460 L466,465 L456,460 Z" fill="#0c2e22"/>
+    <path class="tile" d="M486,455 L496,460 L486,465 L476,460 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.216s"><path class="fl" d="M496,424.54545454545456 L506,429.54545454545456 L506,465 L496,460 Z" fill="#05261a"/><path class="fr" d="M516,424.54545454545456 L506,429.54545454545456 L506,465 L516,460 Z" fill="#083926"/><path class="ft" d="M506,419.54545454545456 L516,424.54545454545456 L506,429.54545454545456 L496,424.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:1.232s"><path class="fl" d="M516,424.54545454545456 L526,429.54545454545456 L526,465 L516,460 Z" fill="#05261a"/><path class="fr" d="M536,424.54545454545456 L526,429.54545454545456 L526,465 L536,460 Z" fill="#083926"/><path class="ft" d="M526,419.54545454545456 L536,424.54545454545456 L526,429.54545454545456 L516,424.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M416,460 L426,465 L416,470 L406,465 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.180s"><path class="fl" d="M426,442.27272727272725 L436,447.27272727272725 L436,470 L426,465 Z" fill="#05261a"/><path class="fr" d="M446,442.27272727272725 L436,447.27272727272725 L436,470 L446,465 Z" fill="#083926"/><path class="ft" d="M436,437.27272727272725 L446,442.27272727272725 L436,447.27272727272725 L426,442.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:1.196s"><path class="fl" d="M446,442.27272727272725 L456,447.27272727272725 L456,470 L446,465 Z" fill="#05261a"/><path class="fr" d="M466,442.27272727272725 L456,447.27272727272725 L456,470 L466,465 Z" fill="#083926"/><path class="ft" d="M456,437.27272727272725 L466,442.27272727272725 L456,447.27272727272725 L446,442.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:1.212s"><path class="fl" d="M466,416.8181818181818 L476,421.8181818181818 L476,470 L466,465 Z" fill="#07432d"/><path class="fr" d="M486,416.8181818181818 L476,421.8181818181818 L476,470 L486,465 Z" fill="#0b6342"/><path class="ft" d="M476,411.8181818181818 L486,416.8181818181818 L476,421.8181818181818 L466,416.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M496,460 L506,465 L496,470 L486,465 Z" fill="#0c2e22"/>
+    <path class="tile" d="M516,460 L526,465 L516,470 L506,465 Z" fill="#0c2e22"/>
+    <path class="tile" d="M536,460 L546,465 L536,470 L526,465 Z" fill="#0c2e22"/>
+    <path class="tile" d="M426,465 L436,470 L426,475 L416,470 Z" fill="#0c2e22"/>
+    <path class="tile" d="M446,465 L456,470 L446,475 L436,470 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.224s"><path class="fl" d="M456,421.8181818181818 L466,426.8181818181818 L466,475 L456,470 Z" fill="#07432d"/><path class="fr" d="M476,421.8181818181818 L466,426.8181818181818 L466,475 L476,470 Z" fill="#0b6342"/><path class="ft" d="M466,416.8181818181818 L476,421.8181818181818 L466,426.8181818181818 L456,421.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M486,465 L496,470 L486,475 L476,470 Z" fill="#0c2e22"/>
+    <path class="tile" d="M506,465 L516,470 L506,475 L496,470 Z" fill="#0c2e22"/>
+    <path class="tile" d="M526,465 L536,470 L526,475 L516,470 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.288s"><path class="fl" d="M536,396.3636363636364 L546,401.3636363636364 L546,475 L536,470 Z" fill="#07432d"/><path class="fr" d="M556,396.3636363636364 L546,401.3636363636364 L546,475 L556,470 Z" fill="#0b6342"/><path class="ft" d="M546,391.3636363636364 L556,396.3636363636364 L546,401.3636363636364 L536,396.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M436,470 L446,475 L436,480 L426,475 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.236s"><path class="fl" d="M446,439.54545454545456 L456,444.54545454545456 L456,480 L446,475 Z" fill="#05261a"/><path class="fr" d="M466,439.54545454545456 L456,444.54545454545456 L456,480 L466,475 Z" fill="#083926"/><path class="ft" d="M456,434.54545454545456 L466,439.54545454545456 L456,444.54545454545456 L446,439.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M476,470 L486,475 L476,480 L466,475 Z" fill="#0c2e22"/>
+    <path class="tile" d="M496,470 L506,475 L496,480 L486,475 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.284s"><path class="fl" d="M506,426.8181818181818 L516,431.8181818181818 L516,480 L506,475 Z" fill="#07432d"/><path class="fr" d="M526,426.8181818181818 L516,431.8181818181818 L516,480 L526,475 Z" fill="#0b6342"/><path class="ft" d="M516,421.8181818181818 L526,426.8181818181818 L516,431.8181818181818 L506,426.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M536,470 L546,475 L536,480 L526,475 Z" fill="#0c2e22"/>
+    <path class="tile" d="M556,470 L566,475 L556,480 L546,475 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.248s"><path class="fl" d="M436,457.27272727272725 L446,462.27272727272725 L446,485 L436,480 Z" fill="#05261a"/><path class="fr" d="M456,457.27272727272725 L446,462.27272727272725 L446,485 L456,480 Z" fill="#083926"/><path class="ft" d="M446,452.27272727272725 L456,457.27272727272725 L446,462.27272727272725 L436,457.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M466,475 L476,480 L466,485 L456,480 Z" fill="#0c2e22"/>
+    <path class="tile" d="M486,475 L496,480 L486,485 L476,480 Z" fill="#0c2e22"/>
+    <path class="tile" d="M506,475 L516,480 L506,485 L496,480 Z" fill="#0c2e22"/>
+    <path class="tile" d="M526,475 L536,480 L526,485 L516,480 Z" fill="#0c2e22"/>
+    <path class="tile" d="M546,475 L556,480 L546,485 L536,480 Z" fill="#0c2e22"/>
+    <path class="tile" d="M566,475 L576,480 L566,485 L556,480 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.276s"><path class="fl" d="M446,436.8181818181818 L456,441.8181818181818 L456,490 L446,485 Z" fill="#07432d"/><path class="fr" d="M466,436.8181818181818 L456,441.8181818181818 L456,490 L466,485 Z" fill="#0b6342"/><path class="ft" d="M456,431.8181818181818 L466,436.8181818181818 L456,441.8181818181818 L446,436.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M476,480 L486,485 L476,490 L466,485 Z" fill="#0c2e22"/>
+    <path class="tile" d="M496,480 L506,485 L496,490 L486,485 Z" fill="#0c2e22"/>
+    <path class="tile" d="M516,480 L526,485 L516,490 L506,485 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.340s"><path class="fl" d="M526,436.8181818181818 L536,441.8181818181818 L536,490 L526,485 Z" fill="#07432d"/><path class="fr" d="M546,436.8181818181818 L536,441.8181818181818 L536,490 L546,485 Z" fill="#0b6342"/><path class="ft" d="M536,431.8181818181818 L546,436.8181818181818 L536,441.8181818181818 L526,436.8181818181818 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.356s"><path class="fl" d="M546,449.54545454545456 L556,454.54545454545456 L556,490 L546,485 Z" fill="#05261a"/><path class="fr" d="M566,449.54545454545456 L556,454.54545454545456 L556,490 L566,485 Z" fill="#083926"/><path class="ft" d="M556,444.54545454545456 L566,449.54545454545456 L556,454.54545454545456 L546,449.54545454545456 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:1.372s"><path class="fl" d="M566,449.54545454545456 L576,454.54545454545456 L576,490 L566,485 Z" fill="#05261a"/><path class="fr" d="M586,449.54545454545456 L576,454.54545454545456 L576,490 L586,485 Z" fill="#083926"/><path class="ft" d="M576,444.54545454545456 L586,449.54545454545456 L576,454.54545454545456 L566,449.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M466,485 L476,490 L466,495 L456,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M486,485 L496,490 L486,495 L476,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M506,485 L516,490 L506,495 L496,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M526,485 L536,490 L526,495 L516,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M546,485 L556,490 L546,495 L536,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M566,485 L576,490 L566,495 L556,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M586,485 L596,490 L586,495 L576,490 Z" fill="#0c2e22"/>
+    <path class="tile" d="M476,490 L486,495 L476,500 L466,495 Z" fill="#0c2e22"/>
+    <path class="tile" d="M496,490 L506,495 L496,500 L486,495 Z" fill="#0c2e22"/>
+    <path class="tile" d="M516,490 L526,495 L516,500 L506,495 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.380s"><path class="fl" d="M526,446.8181818181818 L536,451.8181818181818 L536,500 L526,495 Z" fill="#07432d"/><path class="fr" d="M546,446.8181818181818 L536,451.8181818181818 L536,500 L546,495 Z" fill="#0b6342"/><path class="ft" d="M536,441.8181818181818 L546,446.8181818181818 L536,451.8181818181818 L526,446.8181818181818 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M556,490 L566,495 L556,500 L546,495 Z" fill="#0c2e22"/>
+    <path class="tile" d="M576,490 L586,495 L576,500 L566,495 Z" fill="#0c2e22"/>
+    <path class="tile" d="M596,490 L606,495 L596,500 L586,495 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.360s"><path class="fl" d="M476,477.27272727272725 L486,482.27272727272725 L486,505 L476,500 Z" fill="#05261a"/><path class="fr" d="M496,477.27272727272725 L486,482.27272727272725 L486,505 L496,500 Z" fill="#083926"/><path class="ft" d="M486,472.27272727272725 L496,477.27272727272725 L486,482.27272727272725 L476,477.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M506,495 L516,500 L506,505 L496,500 Z" fill="#0c2e22"/>
+    <path class="tile" d="M526,495 L536,500 L526,505 L516,500 Z" fill="#0c2e22"/>
+    <path class="tile" d="M546,495 L556,500 L546,505 L536,500 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.424s"><path class="fl" d="M556,451.8181818181818 L566,456.8181818181818 L566,505 L556,500 Z" fill="#07432d"/><path class="fr" d="M576,451.8181818181818 L566,456.8181818181818 L566,505 L576,500 Z" fill="#0b6342"/><path class="ft" d="M566,446.8181818181818 L576,451.8181818181818 L566,456.8181818181818 L556,451.8181818181818 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.440s"><path class="fl" d="M576,451.8181818181818 L586,456.8181818181818 L586,505 L576,500 Z" fill="#07432d"/><path class="fr" d="M596,451.8181818181818 L586,456.8181818181818 L586,505 L596,500 Z" fill="#0b6342"/><path class="ft" d="M586,446.8181818181818 L596,451.8181818181818 L586,456.8181818181818 L576,451.8181818181818 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.456s"><path class="fl" d="M596,426.3636363636364 L606,431.3636363636364 L606,505 L596,500 Z" fill="#07432d"/><path class="fr" d="M616,426.3636363636364 L606,431.3636363636364 L606,505 L616,500 Z" fill="#0b6342"/><path class="ft" d="M606,421.3636363636364 L616,426.3636363636364 L606,431.3636363636364 L596,426.3636363636364 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.388s"><path class="fl" d="M486,431.3636363636364 L496,436.3636363636364 L496,510 L486,505 Z" fill="#07432d"/><path class="fr" d="M506,431.3636363636364 L496,436.3636363636364 L496,510 L506,505 Z" fill="#0b6342"/><path class="ft" d="M496,426.3636363636364 L506,431.3636363636364 L496,436.3636363636364 L486,431.3636363636364 Z" fill="#12a06c"/></g>
+    <path class="tile" d="M516,500 L526,505 L516,510 L506,505 Z" fill="#0c2e22"/>
+    <path class="tile" d="M536,500 L546,505 L536,510 L526,505 Z" fill="#0c2e22"/>
+    <g class="bar hot" style="animation-delay:1.436s"><path class="fl" d="M546,355.0 L556,360.0 L556,510 L546,505 Z" fill="#3b6b58"/><path class="fr" d="M566,355.0 L556,360.0 L556,510 L566,505 Z" fill="#579e82"/><path class="ft" d="M556,350.0 L566,355.0 L556,360.0 L546,355.0 Z" fill="#8dffd2"/></g>
+    <path class="tile" d="M576,500 L586,505 L576,510 L566,505 Z" fill="#0c2e22"/>
+    <path class="tile" d="M506,505 L516,510 L506,515 L496,510 Z" fill="#0c2e22"/>
+    <path class="tile" d="M526,505 L536,510 L526,515 L516,510 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.448s"><path class="fl" d="M536,487.27272727272725 L546,492.27272727272725 L546,515 L536,510 Z" fill="#05261a"/><path class="fr" d="M556,487.27272727272725 L546,492.27272727272725 L546,515 L556,510 Z" fill="#083926"/><path class="ft" d="M546,482.27272727272725 L556,487.27272727272725 L546,492.27272727272725 L536,487.27272727272725 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:1.464s"><path class="fl" d="M556,487.27272727272725 L566,492.27272727272725 L566,515 L556,510 Z" fill="#05261a"/><path class="fr" d="M576,487.27272727272725 L566,492.27272727272725 L566,515 L576,510 Z" fill="#083926"/><path class="ft" d="M566,482.27272727272725 L576,487.27272727272725 L566,492.27272727272725 L556,487.27272727272725 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M516,510 L526,515 L516,520 L506,515 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.460s"><path class="fl" d="M526,479.54545454545456 L536,484.54545454545456 L536,520 L526,515 Z" fill="#05261a"/><path class="fr" d="M546,479.54545454545456 L536,484.54545454545456 L536,520 L546,515 Z" fill="#083926"/><path class="ft" d="M536,474.54545454545456 L546,479.54545454545456 L536,484.54545454545456 L526,479.54545454545456 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M556,510 L566,515 L556,520 L546,515 Z" fill="#0c2e22"/>
+    <path class="tile" d="M526,515 L536,520 L526,525 L516,520 Z" fill="#0c2e22"/>
+    <path class="tile" d="M546,515 L556,520 L546,525 L536,520 Z" fill="#0c2e22"/>
+    <path class="tile" d="M536,520 L546,525 L536,530 L526,525 Z" fill="#0c2e22"/>
+  </g>
+
+  <rect x="34" y="589" width="678" height="2" fill="url(#groundFade)"/>
+  <text x="34" y="625" font-size="16" fill="#00ff9c">318 contributions · 112 active days · peak 11 on 2025-09-19</text>
+  <text x="34" y="649" font-size="13" fill="#0f8f63">window 2025-09-16 → 2026-09-15 · snapshot 2026-09-15 · github graphql, zero hand-editing</text>
+</svg>

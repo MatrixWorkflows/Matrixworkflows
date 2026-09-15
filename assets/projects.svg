@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" font-family="ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="100%">
+      <stop offset="0%" stop-color="#0a2016"/>
+      <stop offset="60%" stop-color="#04100b"/>
+      <stop offset="100%" stop-color="#020806"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .cube { animation: bob ease-in-out infinite; }
+    .c0 { animation-duration: 5.6s; }
+    .c1 { animation-duration: 6.9s; animation-delay: -2.4s; }
+    .c2 { animation-duration: 6.1s; animation-delay: -1.1s; }
+    .c3 { animation-duration: 5.0s; animation-delay: -3.3s; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-11px); } }
+    .board text { opacity: 1; animation: fadeUp .8s ease both; }
+    .board:nth-of-type(1) text { animation-delay: .15s; }
+    .board:nth-of-type(2) text { animation-delay: .35s; }
+    .board:nth-of-type(3) text { animation-delay: .55s; }
+    .board:nth-of-type(4) text { animation-delay: .75s; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <rect width="1200" height="460" fill="url(#bg)"/>
+  <rect x="12" y="12" width="1176" height="436" rx="14" fill="none" stroke="#00ff9c" stroke-opacity="0.22" stroke-width="1.5"/>
+
+  <g class="board">
+  <g class="cube c0">
+      <path d="M78,218 L170,264.0 L170,351.4 L78,305.4 Z" fill="#09603f" stroke="#0d8c5c" stroke-width="1"/>
+      <path d="M262,218 L170,264.0 L170,351.4 L262,305.4 Z" fill="#0e9361" stroke="#12bf7e" stroke-width="1"/>
+      <path d="M170,172.0 L262,218 L170,264.0 L78,218 Z" fill="#1cffc1" stroke="#19ffa8" stroke-width="1.6"/>
+      <text transform="matrix(1.84,0.92,-1.84,0.92,170,218)" font-size="28" fill="#04100b" text-anchor="middle" dominant-baseline="central" font-weight="700">$</text>
+    </g>
+  <text x="170" y="52" text-anchor="middle" font-size="26" fill="#eafff4" font-weight="700" letter-spacing="1">SellStack</text>
+  <text x="170" y="78" text-anchor="middle" font-size="13" fill="#ffb454" letter-spacing="2">● IN BUILD</text>
+  <text x="170" y="376" text-anchor="middle" font-size="14.5" fill="#9fd8bd">multi-tenant SaaS — resellers run branded</text>
+  <text x="170" y="396" text-anchor="middle" font-size="14.5" fill="#9fd8bd">Telegram shops off one stack</text>
+  <text x="170" y="422" text-anchor="middle" font-size="12.5" fill="#00d4ff" opacity="0.85">TypeScript · Node · Mongo · Expo</text>
+</g>
+  <g class="board">
+  <g class="cube c1">
+      <path d="M365,218 L457,264.0 L457,351.4 L365,305.4 Z" fill="#005060" stroke="#00748c" stroke-width="1"/>
+      <path d="M549,218 L457,264.0 L457,351.4 L549,305.4 Z" fill="#007a93" stroke="#009fbf" stroke-width="1"/>
+      <path d="M457,172.0 L549,218 L457,264.0 L365,218 Z" fill="#00f3ff" stroke="#00d4ff" stroke-width="1.6"/>
+      <text transform="matrix(1.84,0.92,-1.84,0.92,457,218)" font-size="28" fill="#04100b" text-anchor="middle" dominant-baseline="central" font-weight="700">S</text>
+    </g>
+  <text x="457" y="52" text-anchor="middle" font-size="26" fill="#eafff4" font-weight="700" letter-spacing="1">SubWala</text>
+  <text x="457" y="78" text-anchor="middle" font-size="13" fill="#00ff9c" letter-spacing="2">● LIVE</text>
+  <text x="457" y="376" text-anchor="middle" font-size="14.5" fill="#9fd8bd">the n8n fleet that started it —</text>
+  <text x="457" y="396" text-anchor="middle" font-size="14.5" fill="#9fd8bd">live Telegram subscription bots</text>
+  <text x="457" y="422" text-anchor="middle" font-size="12.5" fill="#00d4ff" opacity="0.85">n8n · MongoDB · Telegram</text>
+</g>
+  <g class="board">
+  <g class="cube c2">
+      <path d="M652,218 L744,264.0 L744,351.4 L652,305.4 Z" fill="#055134" stroke="#08754b" stroke-width="1"/>
+      <path d="M836,218 L744,264.0 L744,351.4 L836,305.4 Z" fill="#087c50" stroke="#0ba067" stroke-width="1"/>
+      <path d="M744,172.0 L836,218 L744,264.0 L652,218 Z" fill="#11f69e" stroke="#0fd68a" stroke-width="1.6"/>
+      <text transform="matrix(1.84,0.92,-1.84,0.92,744,218)" font-size="28" fill="#04100b" text-anchor="middle" dominant-baseline="central" font-weight="700">C</text>
+    </g>
+  <text x="744" y="52" text-anchor="middle" font-size="26" fill="#eafff4" font-weight="700" letter-spacing="1">Cleo</text>
+  <text x="744" y="78" text-anchor="middle" font-size="13" fill="#00d4ff" letter-spacing="2">● DAILY DRIVER</text>
+  <text x="744" y="376" text-anchor="middle" font-size="14.5" fill="#9fd8bd">personal AI assistant — calendar,</text>
+  <text x="744" y="396" text-anchor="middle" font-size="14.5" fill="#9fd8bd">mail, memory, tasks on tap</text>
+  <text x="744" y="422" text-anchor="middle" font-size="12.5" fill="#00d4ff" opacity="0.85">n8n · GPT · Telegram</text>
+</g>
+  <g class="board">
+  <g class="cube c3">
+      <path d="M939,218 L1031,264.0 L1031,351.4 L939,305.4 Z" fill="#60441f" stroke="#8c632e" stroke-width="1"/>
+      <path d="M1123,218 L1031,264.0 L1031,351.4 L1123,305.4 Z" fill="#936830" stroke="#bf873f" stroke-width="1"/>
+      <path d="M1031,172.0 L1123,218 L1031,264.0 L939,218 Z" fill="#ffce60" stroke="#ffb454" stroke-width="1.6"/>
+      <text transform="matrix(1.84,0.92,-1.84,0.92,1031,218)" font-size="28" fill="#04100b" text-anchor="middle" dominant-baseline="central" font-weight="700">W</text>
+    </g>
+  <text x="1031" y="52" text-anchor="middle" font-size="26" fill="#eafff4" font-weight="700" letter-spacing="1">WhatsApp AI</text>
+  <text x="1031" y="78" text-anchor="middle" font-size="13" fill="#00ff9c" letter-spacing="2">● LIVE</text>
+  <text x="1031" y="376" text-anchor="middle" font-size="14.5" fill="#9fd8bd">AI agents answering customers inside</text>
+  <text x="1031" y="396" text-anchor="middle" font-size="14.5" fill="#9fd8bd">WhatsApp for real businesses</text>
+  <text x="1031" y="422" text-anchor="middle" font-size="12.5" fill="#00d4ff" opacity="0.85">GPT-4.1 mini · Baileys</text>
+</g>
+
+  <text x="34" y="40" font-size="20" fill="#eafff4">the board</text>
+  <text x="34" y="62" font-size="13" fill="#0f8f63">what I actually ship — most of it lives in private repos and on live servers</text>
+</svg>

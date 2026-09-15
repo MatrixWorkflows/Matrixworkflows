@@ -1,0 +1,4 @@
+_preview*.html
+_preview*.png
+assets/_preview*
+.playwright-cli/
