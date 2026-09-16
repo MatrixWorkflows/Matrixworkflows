@@ -376,7 +376,7 @@
     <path class="tile" d="M546,495 L556,500 L546,505 L536,500 Z" fill="#0c2e22"/>
     <path class="tile" d="M566,495 L576,500 L566,505 L556,500 Z" fill="#0c2e22"/>
     <path class="tile" d="M586,495 L596,500 L586,505 L576,500 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:1.456s"><path class="fl" d="M596,474.44444444444446 L606,479.44444444444446 L606,505 L596,500 Z" fill="#05261a"/><path class="fr" d="M616,474.44444444444446 L606,479.44444444444446 L606,505 L616,500 Z" fill="#083926"/><path class="ft" d="M606,469.44444444444446 L616,474.44444444444446 L606,479.44444444444446 L596,474.44444444444446 Z" fill="#0e5c3e"/></g>
+    <g class="bar" style="animation-delay:1.456s"><path class="fl" d="M596,458.8888888888889 L606,463.8888888888889 L606,505 L596,500 Z" fill="#05261a"/><path class="fr" d="M616,458.8888888888889 L606,463.8888888888889 L606,505 L616,500 Z" fill="#083926"/><path class="ft" d="M606,453.8888888888889 L616,458.8888888888889 L606,463.8888888888889 L596,458.8888888888889 Z" fill="#0e5c3e"/></g>
     <path class="tile" d="M496,500 L506,505 L496,510 L486,505 Z" fill="#0c2e22"/>
     <path class="tile" d="M516,500 L526,505 L516,510 L506,505 Z" fill="#0c2e22"/>
     <path class="tile" d="M536,500 L546,505 L536,510 L526,505 Z" fill="#0c2e22"/>
@@ -395,6 +395,6 @@
   </g>
 
   <rect x="34" y="589" width="678" height="2" fill="url(#groundFade)"/>
-  <text x="34" y="625" font-size="16" fill="#00ff9c">15 contributions · 4 active days · peak 9 on 2026-03-02</text>
+  <text x="34" y="625" font-size="16" fill="#00ff9c">16 contributions · 4 active days · peak 9 on 2026-03-02</text>
   <text x="34" y="649" font-size="13" fill="#0f8f63">window 2025-09-17 → 2026-09-16 · snapshot 2026-09-16 · github graphql, zero hand-editing</text>
 </svg>
