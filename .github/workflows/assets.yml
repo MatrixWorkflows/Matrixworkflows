@@ -45,7 +45,8 @@ jobs:
         with:
           github_user_name: MatrixWorkflows
           outputs: |
-            dist/github-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#00d4ff&color_dots=#04100b,#0f8f63,#00c97b,#00ff9c,#eafff4
+            dist/github-contribution-grid-snake.svg?palette=github-light
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

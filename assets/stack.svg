@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="35%" r="100%">
+      <stop offset="0%" stop-color="#0a2016"/>
+      <stop offset="60%" stop-color="#04100b"/>
+      <stop offset="100%" stop-color="#020806"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .layer { animation: bob ease-in-out infinite; }
+    .L1 { animation-duration: 6.6s; }
+    .L2 { animation-duration: 5.8s; animation-delay: -1.9s; }
+    .L3 { animation-duration: 7.1s; animation-delay: -3.2s; }
+    .L4 { animation-duration: 5.3s; animation-delay: -0.8s; }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    .axis { stroke-dasharray: 3 8; animation: rise 1.6s linear infinite; }
+    @keyframes rise { to { stroke-dashoffset: -11; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <rect width="1200" height="560" fill="url(#bg)"/>
+  <rect x="12" y="12" width="1176" height="536" rx="14" fill="none" stroke="#00ff9c" stroke-opacity="0.22" stroke-width="1.5"/>
+
+  <path class="axis" d="M430,505 L430,85" fill="none" stroke="#0f8f63" stroke-width="1.2"/>
+
+  <g class="layer L1"><path d="M240,430 L430,460.4 L430,472.4 L240,442 Z" fill="#042d1f" stroke="#074731" stroke-width="1"/><path d="M620,430 L430,460.4 L430,472.4 L620,442 Z" fill="#074a33" stroke="#0a6445" stroke-width="1"/><path d="M430,399.6 L620,430 L430,460.4 L240,430 Z" fill="#109d6c" stroke="#0f8f63" stroke-width="1.5"/><text x="430" y="437" font-size="21" fill="#04100b" text-anchor="middle" font-weight="700" letter-spacing="3" transform="rotate(9.09 430 430)">runtime</text></g> <g class="layer L2"><path d="M240,330 L430,360.4 L430,372.4 L240,342 Z" fill="#004027" stroke="#00643d" stroke-width="1"/><path d="M620,330 L430,360.4 L430,372.4 L620,342 Z" fill="#00683f" stroke="#008c56" stroke-width="1"/><path d="M430,299.6 L620,330 L430,360.4 L240,330 Z" fill="#00dd87" stroke="#00c97b" stroke-width="1.5"/><text x="430" y="337" font-size="21" fill="#04100b" text-anchor="middle" font-weight="700" letter-spacing="3" transform="rotate(9.09 430 330)">core</text></g> <g class="layer L3"><path d="M240,230 L430,260.4 L430,272.4 L240,242 Z" fill="#085135" stroke="#0c7f54" stroke-width="1"/><path d="M620,230 L430,260.4 L430,272.4 L620,242 Z" fill="#0d8457" stroke="#11b275" stroke-width="1"/><path d="M430,199.6 L620,230 L430,260.4 L240,230 Z" fill="#1bffb8" stroke="#19ffa8" stroke-width="1.5"/><text x="430" y="237" font-size="21" fill="#04100b" text-anchor="middle" font-weight="700" letter-spacing="3" transform="rotate(9.09 430 230)">ship</text></g> <g class="layer L4"><path d="M240,130 L430,160.4 L430,172.4 L240,142 Z" fill="#004351" stroke="#006a7f" stroke-width="1"/><path d="M620,130 L430,160.4 L430,172.4 L620,142 Z" fill="#006e84" stroke="#0094b2" stroke-width="1"/><path d="M430,99.6 L620,130 L430,160.4 L240,130 Z" fill="#00e9ff" stroke="#00d4ff" stroke-width="1.5"/><text x="430" y="137" font-size="21" fill="#04100b" text-anchor="middle" font-weight="700" letter-spacing="3" transform="rotate(9.09 430 130)">ai</text></g>
+
+  <g><line x1="628" y1="430" x2="646" y2="430" stroke="#0f8f63" stroke-opacity="0.5" stroke-width="1.2"/><path d="M656,425 L661,430 L656,435 L651,430 Z" fill="#0f8f63"/><text x="672" y="435" font-size="15.5"><tspan fill="#0f8f63" font-weight="700">runtime</tspan><tspan fill="#9fd8bd"> — Linux VPS · Docker · MongoDB Atlas</tspan></text> <line x1="628" y1="330" x2="646" y2="330" stroke="#00c97b" stroke-opacity="0.5" stroke-width="1.2"/><path d="M656,325 L661,330 L656,335 L651,330 Z" fill="#00c97b"/><text x="672" y="335" font-size="15.5"><tspan fill="#00c97b" font-weight="700">core</tspan><tspan fill="#9fd8bd"> — TypeScript · Node.js · Express · Python · Zod</tspan></text> <line x1="628" y1="230" x2="646" y2="230" stroke="#19ffa8" stroke-opacity="0.5" stroke-width="1.2"/><path d="M656,225 L661,230 L656,235 L651,230 Z" fill="#19ffa8"/><text x="672" y="235" font-size="15.5"><tspan fill="#19ffa8" font-weight="700">ship</tspan><tspan fill="#9fd8bd"> — Telegraf · React Native + Expo · Baileys</tspan></text> <line x1="628" y1="130" x2="646" y2="130" stroke="#00d4ff" stroke-opacity="0.5" stroke-width="1.2"/><path d="M656,125 L661,130 L656,135 L651,130 Z" fill="#00d4ff"/><text x="672" y="135" font-size="15.5"><tspan fill="#00d4ff" font-weight="700">ai</tspan><tspan fill="#9fd8bd"> — n8n · GPT-4.1 mini</tspan></text></g>
+
+  <g><circle r="2.4" fill="#00ff9c"><animateMotion dur="3.6s" begin="-0.4s" repeatCount="indefinite" path="M430,500 L430,90"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.6s" begin="-0.4s" repeatCount="indefinite"/></circle> <circle r="2.4" fill="#00d4ff"><animateMotion dur="4.4s" begin="-1.8s" repeatCount="indefinite" path="M430,500 L430,90"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="4.4s" begin="-1.8s" repeatCount="indefinite"/></circle> <circle r="2.4" fill="#19ffa8"><animateMotion dur="3.1s" begin="-2.6s" repeatCount="indefinite" path="M430,500 L430,90"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.1s" begin="-2.6s" repeatCount="indefinite"/></circle></g>
+
+  <text x="34" y="40" font-size="20" fill="#eafff4">the stack</text>
+  <text x="34" y="62" font-size="13" fill="#0f8f63">four layers — everything else is a detail</text>
+</svg>

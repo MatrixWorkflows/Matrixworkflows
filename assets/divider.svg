@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="48" viewBox="0 0 1200 48" font-family="ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bus" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f8f63" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#00ff9c" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f8f63" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      circle { display: none; }
+    }
+  </style>
+
+  <line x1="40" y1="24" x2="1160" y2="24" stroke="url(#bus)" stroke-width="1.4"/>
+  <path d="M40,15 V33 M1160,15 V33" stroke="#0f8f63" stroke-width="1.4"/>
+
+  <path d="M240,21 L243,24 L240,27 L237,24 Z" fill="none" stroke="#0f8f63" stroke-width="1"/>
+  <path d="M960,21 L963,24 L960,27 L957,24 Z" fill="none" stroke="#0f8f63" stroke-width="1"/>
+
+  <path d="M600,14 L610,24 L600,34 L590,24 Z" fill="#04100b" stroke="#00ff9c" stroke-width="1.3"/>
+  <circle cx="600" cy="24" r="2" fill="#00ff9c"/>
+
+  <circle r="2.6" fill="#00ff9c"><animateMotion dur="5.4s" begin="0s" repeatCount="indefinite" path="M40,24 L1160,24"/></circle> <circle r="2.6" fill="#00d4ff"><animateMotion dur="6.2s" begin="-2.1s" repeatCount="indefinite" path="M1160,24 L40,24"/></circle> <circle r="2.6" fill="#ffb454"><animateMotion dur="7.8s" begin="-4.3s" repeatCount="indefinite" path="M40,24 L1160,24"/></circle>
+</svg>
