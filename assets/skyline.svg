@@ -166,7 +166,7 @@
     <path class="tile" d="M246,345 L256,350 L246,355 L236,350 Z" fill="#0c2e22"/>
     <path class="tile" d="M266,345 L276,350 L266,355 L256,350 Z" fill="#0c2e22"/>
     <path class="tile" d="M286,345 L296,350 L286,355 L276,350 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:0.616s"><path class="fl" d="M296,324.44444444444446 L306,329.44444444444446 L306,355 L296,350 Z" fill="#05261a"/><path class="fr" d="M316,324.44444444444446 L306,329.44444444444446 L306,355 L316,350 Z" fill="#083926"/><path class="ft" d="M306,319.44444444444446 L316,324.44444444444446 L306,329.44444444444446 L296,324.44444444444446 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M306,345 L316,350 L306,355 L296,350 Z" fill="#0c2e22"/>
     <path class="tile" d="M196,350 L206,355 L196,360 L186,355 Z" fill="#0c2e22"/>
     <path class="tile" d="M216,350 L226,355 L216,360 L206,355 Z" fill="#0c2e22"/>
     <path class="tile" d="M236,350 L246,355 L236,360 L226,355 Z" fill="#0c2e22"/>
@@ -184,18 +184,18 @@
     <path class="tile" d="M216,360 L226,365 L216,370 L206,365 Z" fill="#0c2e22"/>
     <path class="tile" d="M236,360 L246,365 L236,370 L226,365 Z" fill="#0c2e22"/>
     <path class="tile" d="M256,360 L266,365 L256,370 L246,365 Z" fill="#0c2e22"/>
-    <path class="tile" d="M276,360 L286,365 L276,370 L266,365 Z" fill="#0c2e22"/>
+    <g class="bar hot" style="animation-delay:0.652s"><path class="fl" d="M266,215.0 L276,220.0 L276,370 L266,365 Z" fill="#3b6b58"/><path class="fr" d="M286,215.0 L276,220.0 L276,370 L286,365 Z" fill="#579e82"/><path class="ft" d="M276,210.0 L286,215.0 L276,220.0 L266,215.0 Z" fill="#8dffd2"/></g>
     <path class="tile" d="M296,360 L306,365 L296,370 L286,365 Z" fill="#0c2e22"/>
     <path class="tile" d="M316,360 L326,365 L316,370 L306,365 Z" fill="#0c2e22"/>
     <path class="tile" d="M336,360 L346,365 L336,370 L326,365 Z" fill="#0c2e22"/>
     <path class="tile" d="M226,365 L236,370 L226,375 L216,370 Z" fill="#0c2e22"/>
     <path class="tile" d="M246,365 L256,370 L246,375 L236,370 Z" fill="#0c2e22"/>
-    <g class="bar hot" style="animation-delay:0.664s"><path class="fl" d="M256,220.0 L266,225.0 L266,375 L256,370 Z" fill="#3b6b58"/><path class="fr" d="M276,220.0 L266,225.0 L266,375 L276,370 Z" fill="#579e82"/><path class="ft" d="M266,215.0 L276,220.0 L266,225.0 L256,220.0 Z" fill="#8dffd2"/></g>
+    <path class="tile" d="M266,365 L276,370 L266,375 L256,370 Z" fill="#0c2e22"/>
     <path class="tile" d="M286,365 L296,370 L286,375 L276,370 Z" fill="#0c2e22"/>
     <path class="tile" d="M306,365 L316,370 L306,375 L296,370 Z" fill="#0c2e22"/>
     <path class="tile" d="M326,365 L336,370 L326,375 L316,370 Z" fill="#0c2e22"/>
     <path class="tile" d="M346,365 L356,370 L346,375 L336,370 Z" fill="#0c2e22"/>
-    <path class="tile" d="M236,370 L246,375 L236,380 L226,375 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.660s"><path class="fl" d="M226,349.44444444444446 L236,354.44444444444446 L236,380 L226,375 Z" fill="#05261a"/><path class="fr" d="M246,349.44444444444446 L236,354.44444444444446 L236,380 L246,375 Z" fill="#083926"/><path class="ft" d="M236,344.44444444444446 L246,349.44444444444446 L236,354.44444444444446 L226,349.44444444444446 Z" fill="#0e5c3e"/></g>
     <path class="tile" d="M256,370 L266,375 L256,380 L246,375 Z" fill="#0c2e22"/>
     <path class="tile" d="M276,370 L286,375 L276,380 L266,375 Z" fill="#0c2e22"/>
     <path class="tile" d="M296,370 L306,375 L296,380 L286,375 Z" fill="#0c2e22"/>
@@ -384,17 +384,17 @@
     <path class="tile" d="M576,500 L586,505 L576,510 L566,505 Z" fill="#0c2e22"/>
     <path class="tile" d="M506,505 L516,510 L506,515 L496,510 Z" fill="#0c2e22"/>
     <path class="tile" d="M526,505 L536,510 L526,515 L516,510 Z" fill="#0c2e22"/>
-    <path class="tile" d="M546,505 L556,510 L546,515 L536,510 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.448s"><path class="fl" d="M536,437.77777777777777 L546,442.77777777777777 L546,515 L536,510 Z" fill="#07432d"/><path class="fr" d="M556,437.77777777777777 L546,442.77777777777777 L546,515 L556,510 Z" fill="#0b6342"/><path class="ft" d="M546,432.77777777777777 L556,437.77777777777777 L546,442.77777777777777 L536,437.77777777777777 Z" fill="#12a06c"/></g>
     <path class="tile" d="M566,505 L576,510 L566,515 L556,510 Z" fill="#0c2e22"/>
     <path class="tile" d="M516,510 L526,515 L516,520 L506,515 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:1.460s"><path class="fl" d="M526,442.77777777777777 L536,447.77777777777777 L536,520 L526,515 Z" fill="#07432d"/><path class="fr" d="M546,442.77777777777777 L536,447.77777777777777 L536,520 L546,515 Z" fill="#0b6342"/><path class="ft" d="M536,437.77777777777777 L546,442.77777777777777 L536,447.77777777777777 L526,442.77777777777777 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.460s"><path class="fl" d="M526,473.8888888888889 L536,478.8888888888889 L536,520 L526,515 Z" fill="#05261a"/><path class="fr" d="M546,473.8888888888889 L536,478.8888888888889 L536,520 L546,515 Z" fill="#083926"/><path class="ft" d="M536,468.8888888888889 L546,473.8888888888889 L536,478.8888888888889 L526,473.8888888888889 Z" fill="#0e5c3e"/></g>
     <path class="tile" d="M556,510 L566,515 L556,520 L546,515 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:1.472s"><path class="fl" d="M516,478.8888888888889 L526,483.8888888888889 L526,525 L516,520 Z" fill="#05261a"/><path class="fr" d="M536,478.8888888888889 L526,483.8888888888889 L526,525 L536,520 Z" fill="#083926"/><path class="ft" d="M526,473.8888888888889 L536,478.8888888888889 L526,483.8888888888889 L516,478.8888888888889 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M526,515 L536,520 L526,525 L516,520 Z" fill="#0c2e22"/>
     <path class="tile" d="M546,515 L556,520 L546,525 L536,520 Z" fill="#0c2e22"/>
     <path class="tile" d="M536,520 L546,525 L536,530 L526,525 Z" fill="#0c2e22"/>
   </g>
 
   <rect x="34" y="589" width="678" height="2" fill="url(#groundFade)"/>
   <text x="34" y="625" font-size="16" fill="#00ff9c">16 contributions · 4 active days · peak 9 on 2026-03-02</text>
-  <text x="34" y="649" font-size="13" fill="#0f8f63">window 2025-09-25 → 2026-09-24 · snapshot 2026-09-24 · github graphql, zero hand-editing</text>
+  <text x="34" y="649" font-size="13" fill="#0f8f63">window 2025-09-26 → 2026-09-25 · snapshot 2026-09-25 · github graphql, zero hand-editing</text>
 </svg>
