@@ -144,13 +144,13 @@
     <path class="tile" d="M196,330 L206,335 L196,340 L186,335 Z" fill="#0c2e22"/>
     <path class="tile" d="M216,330 L226,335 L216,340 L206,335 Z" fill="#0c2e22"/>
     <path class="tile" d="M236,330 L246,335 L236,340 L226,335 Z" fill="#0c2e22"/>
-    <path class="tile" d="M256,330 L266,335 L256,340 L246,335 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:0.516s"><path class="fl" d="M246,309.44444444444446 L256,314.44444444444446 L256,340 L246,335 Z" fill="#05261a"/><path class="fr" d="M266,309.44444444444446 L256,314.44444444444446 L256,340 L266,335 Z" fill="#083926"/><path class="ft" d="M256,304.44444444444446 L266,309.44444444444446 L256,314.44444444444446 L246,309.44444444444446 Z" fill="#0e5c3e"/></g>
     <path class="tile" d="M276,330 L286,335 L276,340 L266,335 Z" fill="#0c2e22"/>
     <path class="tile" d="M166,335 L176,340 L166,345 L156,340 Z" fill="#0c2e22"/>
     <path class="tile" d="M186,335 L196,340 L186,345 L176,340 Z" fill="#0c2e22"/>
     <path class="tile" d="M206,335 L216,340 L206,345 L196,340 Z" fill="#0c2e22"/>
     <path class="tile" d="M226,335 L236,340 L226,345 L216,340 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:0.528s"><path class="fl" d="M236,314.44444444444446 L246,319.44444444444446 L246,345 L236,340 Z" fill="#05261a"/><path class="fr" d="M256,314.44444444444446 L246,319.44444444444446 L246,345 L256,340 Z" fill="#083926"/><path class="ft" d="M246,309.44444444444446 L256,314.44444444444446 L246,319.44444444444446 L236,314.44444444444446 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M246,335 L256,340 L246,345 L236,340 Z" fill="#0c2e22"/>
     <path class="tile" d="M266,335 L276,340 L266,345 L256,340 Z" fill="#0c2e22"/>
     <path class="tile" d="M286,335 L296,340 L286,345 L276,340 Z" fill="#0c2e22"/>
     <path class="tile" d="M176,340 L186,345 L176,350 L166,345 Z" fill="#0c2e22"/>
@@ -168,13 +168,13 @@
     <path class="tile" d="M286,345 L296,350 L286,355 L276,350 Z" fill="#0c2e22"/>
     <path class="tile" d="M306,345 L316,350 L306,355 L296,350 Z" fill="#0c2e22"/>
     <path class="tile" d="M196,350 L206,355 L196,360 L186,355 Z" fill="#0c2e22"/>
-    <path class="tile" d="M216,350 L226,355 L216,360 L206,355 Z" fill="#0c2e22"/>
+    <g class="bar hot" style="animation-delay:0.564s"><path class="fl" d="M206,205.0 L216,210.0 L216,360 L206,355 Z" fill="#3b6b58"/><path class="fr" d="M226,205.0 L216,210.0 L216,360 L226,355 Z" fill="#579e82"/><path class="ft" d="M216,200.0 L226,205.0 L216,210.0 L206,205.0 Z" fill="#8dffd2"/></g>
     <path class="tile" d="M236,350 L246,355 L236,360 L226,355 Z" fill="#0c2e22"/>
     <path class="tile" d="M256,350 L266,355 L256,360 L246,355 Z" fill="#0c2e22"/>
     <path class="tile" d="M276,350 L286,355 L276,360 L266,355 Z" fill="#0c2e22"/>
     <path class="tile" d="M296,350 L306,355 L296,360 L286,355 Z" fill="#0c2e22"/>
     <path class="tile" d="M316,350 L326,355 L316,360 L306,355 Z" fill="#0c2e22"/>
-    <g class="bar hot" style="animation-delay:0.576s"><path class="fl" d="M196,210.0 L206,215.0 L206,365 L196,360 Z" fill="#3b6b58"/><path class="fr" d="M216,210.0 L206,215.0 L206,365 L216,360 Z" fill="#579e82"/><path class="ft" d="M206,205.0 L216,210.0 L206,215.0 L196,210.0 Z" fill="#8dffd2"/></g>
+    <path class="tile" d="M206,355 L216,360 L206,365 L196,360 Z" fill="#0c2e22"/>
     <path class="tile" d="M226,355 L236,360 L226,365 L216,360 Z" fill="#0c2e22"/>
     <path class="tile" d="M246,355 L256,360 L246,365 L236,360 Z" fill="#0c2e22"/>
     <path class="tile" d="M266,355 L276,360 L266,365 L256,360 Z" fill="#0c2e22"/>
@@ -341,13 +341,13 @@
     <path class="tile" d="M496,470 L506,475 L496,480 L486,475 Z" fill="#0c2e22"/>
     <path class="tile" d="M516,470 L526,475 L516,480 L506,475 Z" fill="#0c2e22"/>
     <path class="tile" d="M536,470 L546,475 L536,480 L526,475 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:1.316s"><path class="fl" d="M546,402.77777777777777 L556,407.77777777777777 L556,480 L546,475 Z" fill="#07432d"/><path class="fr" d="M566,402.77777777777777 L556,407.77777777777777 L556,480 L566,475 Z" fill="#0b6342"/><path class="ft" d="M556,397.77777777777777 L566,402.77777777777777 L556,407.77777777777777 L546,402.77777777777777 Z" fill="#12a06c"/></g>
+    <g class="bar" style="animation-delay:1.316s"><path class="fl" d="M546,433.8888888888889 L556,438.8888888888889 L556,480 L546,475 Z" fill="#05261a"/><path class="fr" d="M566,433.8888888888889 L556,438.8888888888889 L556,480 L566,475 Z" fill="#083926"/><path class="ft" d="M556,428.8888888888889 L566,433.8888888888889 L556,438.8888888888889 L546,433.8888888888889 Z" fill="#0e5c3e"/></g>
     <path class="tile" d="M446,475 L456,480 L446,485 L436,480 Z" fill="#0c2e22"/>
     <path class="tile" d="M466,475 L476,480 L466,485 L456,480 Z" fill="#0c2e22"/>
     <path class="tile" d="M486,475 L496,480 L486,485 L476,480 Z" fill="#0c2e22"/>
     <path class="tile" d="M506,475 L516,480 L506,485 L496,480 Z" fill="#0c2e22"/>
     <path class="tile" d="M526,475 L536,480 L526,485 L516,480 Z" fill="#0c2e22"/>
-    <g class="bar" style="animation-delay:1.328s"><path class="fl" d="M536,438.8888888888889 L546,443.8888888888889 L546,485 L536,480 Z" fill="#05261a"/><path class="fr" d="M556,438.8888888888889 L546,443.8888888888889 L546,485 L556,480 Z" fill="#083926"/><path class="ft" d="M546,433.8888888888889 L556,438.8888888888889 L546,443.8888888888889 L536,438.8888888888889 Z" fill="#0e5c3e"/></g>
+    <path class="tile" d="M546,475 L556,480 L546,485 L536,480 Z" fill="#0c2e22"/>
     <path class="tile" d="M566,475 L576,480 L566,485 L556,480 Z" fill="#0c2e22"/>
     <path class="tile" d="M456,480 L466,485 L456,490 L446,485 Z" fill="#0c2e22"/>
     <path class="tile" d="M476,480 L486,485 L476,490 L466,485 Z" fill="#0c2e22"/>
@@ -370,7 +370,7 @@
     <path class="tile" d="M556,490 L566,495 L556,500 L546,495 Z" fill="#0c2e22"/>
     <path class="tile" d="M576,490 L586,495 L576,500 L566,495 Z" fill="#0c2e22"/>
     <path class="tile" d="M596,490 L606,495 L596,500 L586,495 Z" fill="#0c2e22"/>
-    <path class="tile" d="M486,495 L496,500 L486,505 L476,500 Z" fill="#0c2e22"/>
+    <g class="bar" style="animation-delay:1.360s"><path class="fl" d="M476,427.77777777777777 L486,432.77777777777777 L486,505 L476,500 Z" fill="#07432d"/><path class="fr" d="M496,427.77777777777777 L486,432.77777777777777 L486,505 L496,500 Z" fill="#0b6342"/><path class="ft" d="M486,422.77777777777777 L496,427.77777777777777 L486,432.77777777777777 L476,427.77777777777777 Z" fill="#12a06c"/></g>
     <path class="tile" d="M506,495 L516,500 L506,505 L496,500 Z" fill="#0c2e22"/>
     <path class="tile" d="M526,495 L536,500 L526,505 L516,500 Z" fill="#0c2e22"/>
     <path class="tile" d="M546,495 L556,500 L546,505 L536,500 Z" fill="#0c2e22"/>
@@ -396,5 +396,5 @@
 
   <rect x="34" y="589" width="678" height="2" fill="url(#groundFade)"/>
   <text x="34" y="625" font-size="16" fill="#00ff9c">16 contributions · 4 active days · peak 9 on 2026-03-02</text>
-  <text x="34" y="649" font-size="13" fill="#0f8f63">window 2025-10-21 → 2026-10-20 · snapshot 2026-10-20 · github graphql, zero hand-editing</text>
+  <text x="34" y="649" font-size="13" fill="#0f8f63">window 2025-10-22 → 2026-10-21 · snapshot 2026-10-21 · github graphql, zero hand-editing</text>
 </svg>
